@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b2b56c-3edc-4baf-adda-e5d13d3d5233" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/MainActivity.java" />
     </list>
     <ignored path="HappilyEverAfter.iws" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.86422974">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -2079,7 +2078,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86422974">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
         </state>
       </provider>
