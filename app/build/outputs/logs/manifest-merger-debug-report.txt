@@ -37,6 +37,30 @@ MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEv
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\HappilyEverAfter.Libraries\ShareLib\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -47,10 +71,10 @@ MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEv
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.simple.happilyeverafter.MainActivity
+activity#com.simple.happilyeverafter.testMvp.TestView
 ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:11:19-47
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:11:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
@@ -84,6 +108,31 @@ MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\
 MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\HappilyEverAfter.Libraries\ShareLib\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton:butterknife:8.5.1] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:23:9-75
