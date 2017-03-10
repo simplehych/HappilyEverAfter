@@ -2,14 +2,16 @@ package com.simple.happilyeverafter.testMvp;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.simple.happilyeverafter.R;
-import com.simple.sharelib.Base.BaseView;
-import com.simple.sharelib.Base.IBaseView;
+import com.simple.sharelib.base.BaseActivity;
+import com.simple.sharelib.base.IBaseView;
+
 
 import butterknife.BindView;
 
-public class TestView extends BaseView<IBaseView, TestPresenter> {
+public class TestView extends BaseActivity<IBaseView, TestPresenter> {
 
 
     @BindView(R.id.test_txt)
@@ -48,11 +50,13 @@ public class TestView extends BaseView<IBaseView, TestPresenter> {
 
     @Override
     public void success() {
+        Toast.makeText(this,"loadDataSuccess",Toast.LENGTH_SHORT).show();
         mTestTxt.setText("loadDataSuccess");
     }
 
     @Override
     public void failure() {
+        Toast.makeText(this,"loadDataFail",Toast.LENGTH_SHORT).show();
         mTestTxt.setText("loadDataFail");
     }
 }

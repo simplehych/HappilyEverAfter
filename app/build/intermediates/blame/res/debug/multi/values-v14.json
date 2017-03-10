@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 326
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -32,7 +32,7 @@
                     "endOffset": 397
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 480
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 890
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -92,7 +92,7 @@
                     "endOffset": 1312
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -112,7 +112,7 @@
                     "endOffset": 1432
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -131,7 +131,7 @@
                     "endOffset": 1564
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -150,7 +150,7 @@
                     "endOffset": 1684
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -169,7 +169,7 @@
                     "endOffset": 1747
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -189,7 +189,7 @@
                     "endOffset": 1901
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -209,7 +209,7 @@
                     "endOffset": 1964
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -228,254 +228,13 @@
                     "endOffset": 2096
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
                         "startOffset": 1969,
                         "endColumn": 131,
                         "endOffset": 2096
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 6,
-                    "endColumn": 12,
-                    "endOffset": 326
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endLine": 6,
-                        "endColumn": 12,
-                        "endOffset": 332
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 331,
-                    "endColumn": 70,
-                    "endOffset": 397
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 338,
-                        "endColumn": 70,
-                        "endOffset": 404
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 402,
-                    "endColumn": 82,
-                    "endOffset": 480
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 410,
-                        "endColumn": 82,
-                        "endOffset": 488
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 485,
-                    "endLine": 14,
-                    "endColumn": 12,
-                    "endOffset": 890
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 494,
-                        "endLine": 14,
-                        "endColumn": 12,
-                        "endOffset": 904
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 895,
-                    "endLine": 20,
-                    "endColumn": 12,
-                    "endOffset": 1312
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 910,
-                        "endLine": 20,
-                        "endColumn": 12,
-                        "endOffset": 1332
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1317,
-                    "endColumn": 119,
-                    "endOffset": 1432
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1338,
-                        "endColumn": 119,
-                        "endOffset": 1453
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1437,
-                    "endColumn": 131,
-                    "endOffset": 1564
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1459,
-                        "endColumn": 131,
-                        "endOffset": 1586
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 1569,
-                    "endColumn": 119,
-                    "endOffset": 1684
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1592,
-                        "endColumn": 119,
-                        "endOffset": 1707
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 1689,
-                    "endColumn": 62,
-                    "endOffset": 1747
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 1713,
-                        "endColumn": 62,
-                        "endOffset": 1771
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 1752,
-                    "endLine": 27,
-                    "endColumn": 12,
-                    "endOffset": 1901
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 1777,
-                        "endLine": 27,
-                        "endColumn": 12,
-                        "endOffset": 1928
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 1906,
-                    "endColumn": 62,
-                    "endOffset": 1964
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 1934,
-                        "endColumn": 62,
-                        "endOffset": 1992
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 1969,
-                    "endColumn": 131,
-                    "endOffset": 2096
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-v14\\values-v14.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 1998,
-                        "endColumn": 131,
-                        "endOffset": 2125
                     }
                 }
             }

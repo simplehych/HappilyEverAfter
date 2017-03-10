@@ -1,18 +1,16 @@
-package com.simple.sharelib.Base;
+package com.simple.sharelib.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
 import butterknife.ButterKnife;
 
 /**
- * View基类，所有的Activity和Fragmentment继承
- * <p>
+ *
+ * V基类
  * Created by Anthony on 2017/3/10.
  */
-public abstract class BaseView<V, T extends BasePresenter<V>> extends BasePresenter implements IBaseView {
+public abstract class BaseActivity<V,T extends BasePresenter<V>> extends BaseView implements IBaseView {
 
     protected T mPresenter;
 

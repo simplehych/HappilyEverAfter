@@ -1,8 +1,9 @@
 package com.simple.happilyeverafter.testMvp;
 
-import com.simple.sharelib.Base.BasePresenter;
-import com.simple.sharelib.Base.IBaseModel;
-import com.simple.sharelib.Base.IBaseView;
+
+import com.simple.sharelib.base.BasePresenter;
+import com.simple.sharelib.base.IBaseModel;
+import com.simple.sharelib.base.IBaseView;
 
 /**
  * Created by Anthony on 2017/3/10.

@@ -1,6 +1,4 @@
-package com.simple.sharelib.Base;
-
-import java.util.List;
+package com.simple.sharelib.base;
 
 /**
  * Created by Anthony on 2017/3/10.
@@ -26,5 +24,4 @@ public interface IBaseView {
      * 加载失败
      */
     void failure();
-
 }

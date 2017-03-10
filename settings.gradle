@@ -1,4 +1,4 @@
-include ':app'
+include ':app', ':core'
 include ':Libraries:ShareLib'
 include ':Functions:MusicModule'
 include ':Functions:MovieModule'

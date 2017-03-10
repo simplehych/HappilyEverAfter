@@ -15,144 +15,6 @@
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 69,
-                        "endOffset": 122
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 125,
-                    "endColumn": 83,
-                    "endOffset": 204
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 128,
-                        "endColumn": 83,
-                        "endOffset": 207
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 209,
-                    "endColumn": 83,
-                    "endOffset": 288
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 213,
-                        "endColumn": 83,
-                        "endOffset": 292
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 293,
-                    "endColumn": 95,
-                    "endOffset": 384
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 298,
-                        "endColumn": 95,
-                        "endOffset": 389
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 389,
-                    "endColumn": 101,
-                    "endOffset": 486
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 395,
-                        "endColumn": 101,
-                        "endOffset": 492
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 491,
-                    "endColumn": 101,
-                    "endOffset": 588
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 498,
-                        "endColumn": 101,
-                        "endOffset": 595
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 593,
-                    "endColumn": 93,
-                    "endOffset": 682
-                },
-                "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 601,
-                        "endColumn": 93,
-                        "endOffset": 690
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\values-night-v8\\values-night-v8.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 69,
-                    "endOffset": 120
-                },
-                "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
                         "startOffset": 55,
                         "endColumn": 69,
                         "endOffset": 120
@@ -168,7 +30,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -187,7 +49,7 @@
                     "endOffset": 288
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -206,7 +68,7 @@
                     "endOffset": 384
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -225,7 +87,7 @@
                     "endOffset": 486
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -244,7 +106,7 @@
                     "endOffset": 588
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -263,7 +125,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "D:\\GitWorkspace\\HappilyEverAfter\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

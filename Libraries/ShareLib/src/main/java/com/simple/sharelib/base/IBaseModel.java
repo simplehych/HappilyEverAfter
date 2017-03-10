@@ -1,4 +1,4 @@
-package com.simple.sharelib.Base;
+package com.simple.sharelib.base;
 
 /**
  * Created by Anthony on 2017/3/10.
@@ -17,5 +17,4 @@ public interface IBaseModel {
         void onComplete();
         void onFail();
     }
-
 }
