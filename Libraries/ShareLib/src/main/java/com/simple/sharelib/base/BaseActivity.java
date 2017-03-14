@@ -3,8 +3,6 @@ package com.simple.sharelib.base;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import butterknife.ButterKnife;
-
 /**
  *
  * V基类
@@ -17,10 +15,10 @@ public abstract class BaseActivity<V,T extends BasePresenter<V>> extends BaseVie
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //设置页面布局
-        setContentView(getLayoutResID());
-        //在基类中绑定视图，避免所有的视图层重复该操作
-        ButterKnife.bind(this);
+//        //设置页面布局
+//        setContentView(getLayoutResID());
+//        //在基类中绑定视图，避免所有的视图层重复该操作
+//        ButterKnife.bind(this);
         initView();
         //创建Presenter
         mPresenter = createPresenter();

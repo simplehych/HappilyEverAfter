@@ -1,4 +1,4 @@
-package com.simple.happilyeverafter.testMvp;
+package com.simple.happilyeverafter.testmvp;
 
 
 import com.simple.sharelib.base.IBaseModel;

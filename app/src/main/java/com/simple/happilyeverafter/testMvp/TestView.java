@@ -1,17 +1,16 @@
-package com.simple.happilyeverafter.testMvp;
+package com.simple.happilyeverafter.testmvp;
 
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.simple.happilyeverafter.R;
 import com.simple.sharelib.base.BaseActivity;
 import com.simple.sharelib.base.IBaseView;
 
-
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
-public class TestView extends BaseActivity<IBaseView, TestPresenter> {
+public class TestView extends BaseActivity<IBaseView,TestPresenter> {
 
 
     @BindView(R.id.test_txt)
@@ -20,12 +19,14 @@ public class TestView extends BaseActivity<IBaseView, TestPresenter> {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_test);
+        ButterKnife.bind(this);
+        mTestTxt.setText("ButterKnife");
         mPresenter.fetch();
     }
 
     @Override
     protected void initView() {
-
     }
 
     @Override
@@ -35,7 +36,7 @@ public class TestView extends BaseActivity<IBaseView, TestPresenter> {
 
     @Override
     protected int getLayoutResID() {
-        return R.layout.activity_main;
+        return R.layout.activity_test;
     }
 
     @Override
@@ -50,13 +51,12 @@ public class TestView extends BaseActivity<IBaseView, TestPresenter> {
 
     @Override
     public void success() {
-        Toast.makeText(this,"loadDataSuccess",Toast.LENGTH_SHORT).show();
         mTestTxt.setText("loadDataSuccess");
     }
 
     @Override
     public void failure() {
-        Toast.makeText(this,"loadDataFail",Toast.LENGTH_SHORT).show();
         mTestTxt.setText("loadDataFail");
     }
+
 }
