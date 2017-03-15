@@ -4,7 +4,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">设置</string>
+    <string name="action_settings">action_settings</string>
+    <string name="action_another">action_another</string>
     <string name="click_login">点击头像登录</string>
     <string name="hint_name">用户名/Email/手机号</string>
     <string name="hint_password">密码</string>
@@ -18,4 +19,6 @@
     <string name="snackbar_short">在short时间段内显示Snackbar</string>
     <string name="snackbar_action">设置Snackbar的action</string>
     <string name="snackbar_color">自定义Snackbar的文字颜色</string>
+
+    <string name="github">GitHub</string>
 </resources>

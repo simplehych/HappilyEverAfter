@@ -5,6 +5,14 @@
     <color name="colorAccent">#FF4081</color>
     <color name="red">#FF0000</color>
 
+    <color name="bg_home_bottom_bar">#4da1e1</color>
 
+    <color name="teal">#00796B</color>
+    <color name="brown">#8D6E63</color>
+    <color name="blue">#2196F3</color>
+    <color name="grey">#607D8B</color>
+    <color name="orange">#F57C00</color>
+    <color name="nav_checked_color">#000000</color>
+    <color name="nav_uncheck_color">#000000</color>
 
 </resources>

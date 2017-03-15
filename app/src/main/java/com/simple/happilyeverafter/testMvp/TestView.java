@@ -26,10 +26,6 @@ public class TestView extends BaseActivity<IBaseView,TestPresenter> {
     }
 
     @Override
-    protected void initView() {
-    }
-
-    @Override
     protected TestPresenter createPresenter() {
         return new TestPresenter(this);
     }

@@ -4,6 +4,10 @@
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fixed_bottom_navigation_item.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.ashokvarma.android\\bottom-navigation-bar\\1.3.1\\res\\layout\\fixed_bottom_navigation_item.xml"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -24,12 +28,12 @@
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -112,6 +116,10 @@
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_navigation_bar_container.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.ashokvarma.android\\bottom-navigation-bar\\1.3.1\\res\\layout\\bottom_navigation_bar_container.xml"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu.xml"
     },
@@ -178,6 +186,10 @@
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shifting_bottom_navigation_item.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.ashokvarma.android\\bottom-navigation-bar\\1.3.1\\res\\layout\\shifting_bottom_navigation_item.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",

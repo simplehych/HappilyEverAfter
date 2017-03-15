@@ -19,7 +19,7 @@ public abstract class BaseActivity<V,T extends BasePresenter<V>> extends BaseVie
 //        setContentView(getLayoutResID());
 //        //在基类中绑定视图，避免所有的视图层重复该操作
 //        ButterKnife.bind(this);
-        initView();
+
         //创建Presenter
         mPresenter = createPresenter();
         //通过Presenter将视图绑定
@@ -34,12 +34,6 @@ public abstract class BaseActivity<V,T extends BasePresenter<V>> extends BaseVie
         super.onDestroy();
         mPresenter.detachView();
     }
-
-    /**
-     * 初始化视图
-     */
-    protected abstract void initView();
-
 
     /**
      * 实现类创建相应的Presenter
