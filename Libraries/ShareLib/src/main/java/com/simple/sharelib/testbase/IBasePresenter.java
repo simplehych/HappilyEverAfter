@@ -1,4 +1,4 @@
-package com.simple.sharelib.base;
+package com.simple.sharelib.testbase;
 
 /**
  * Presenter基础接口

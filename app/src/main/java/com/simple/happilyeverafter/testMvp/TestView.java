@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.simple.happilyeverafter.R;
-import com.simple.sharelib.base.BaseActivity;
-import com.simple.sharelib.base.IBaseView;
+import com.simple.sharelib.testbase.BaseActivity;
+import com.simple.sharelib.testbase.IBaseView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

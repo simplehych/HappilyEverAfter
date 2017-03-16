@@ -2,8 +2,6 @@ package com.simple.happilyeverafter.modules.home;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,13 +10,13 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.Menu;
@@ -33,8 +31,10 @@ import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.simple.happilyeverafter.R;
 import com.simple.happilyeverafter.modules.SnackBarActivity;
-import com.simple.sharelib.base.BaseActivity;
-import com.simple.sharelib.base.IBaseView;
+import com.simple.happilyeverafter.modules.fragments.testfragment.TestFragment;
+import com.simple.happilyeverafter.modules.fragments.testfragment.TestPresenter;
+import com.simple.sharelib.testbase.BaseActivity;
+import com.simple.sharelib.testbase.IBaseView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -43,7 +43,7 @@ import butterknife.OnClick;
 /**
  * Created by Anthony on 2017/3/14.
  */
-public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> implements BottomNavigationBar.OnTabSelectedListener, NavigationView.OnNavigationItemSelectedListener {
+public class HomeActivity extends AppCompatActivity implements BottomNavigationBar.OnTabSelectedListener, NavigationView.OnNavigationItemSelectedListener {
 
     @BindView(R.id.home_nav_view)
     NavigationView mNavigationView;
@@ -59,11 +59,14 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
     DrawerLayout mDrawerLayout;
 
     private ViewPager mViewPager;
-    private FragmentManager mFragmentManager;
-    private Fragment mHomeFragment;
+    private FragmentManager mFragmentManager = getSupportFragmentManager();
     private BadgeItem mBadgeItem;
     private int lastSelectedNavBottomPos = 0;
     private boolean isShowBadge = true;//show BadgeItem or hide
+    private TestFragment mTestFragment;
+
+    public static final String ACTION_FRAGMENT01 = "com.simple.happilyeverafter.modules.fragments.fragment01";
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -71,7 +74,20 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
         initView();
-        setDefaultFragment();
+
+        if (savedInstanceState != null) {
+            mTestFragment = (TestFragment) mFragmentManager.getFragment(savedInstanceState, "TestFragment");
+        } else {
+            mTestFragment = TestFragment.newInstance();
+        }
+
+        if (!mTestFragment.isAdded()) {
+            mFragmentManager.beginTransaction()
+                    .add(R.id.home_content, mTestFragment, "TestFragment")
+                    .commit();
+        }
+
+        showFragment01();
     }
 
     private void initView() {
@@ -79,28 +95,18 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
         initNavigationDrawerLayout();
         //Navigation-BottomBar
         initNavigationBottomBar();
-
-
     }
 
     @TargetApi(Build.VERSION_CODES.M)
     private void initNavigationDrawerLayout() {
-
         setSupportActionBar(mHomeToolbar);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, mDrawerLayout, mHomeToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         mDrawerLayout.addDrawerListener(toggle);
         toggle.syncState();
         mNavigationView.setNavigationItemSelectedListener(this);
-
-//        /**
-//         * set default checked item
-//         */
-//        Resources resource = getBaseContext().getResources();
-//        ColorStateList csl = resource.getColorStateList(R.color.nav_menu_item_color);
-//        mNavigationView.setItemTextColor(csl);
-//
-//        mNavigationView.getMenu().getItem(0).setChecked(true);
+        //设置默认选中的item
+        mNavigationView.setCheckedItem(R.id.nav_item_1);
     }
 
     private void initNavigationBottomBar() {
@@ -155,7 +161,7 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
                 break;
             default:
                 mBottomNavBar
-                        .addItem(new BottomNavigationItem(R.drawable.ic_home_white_24dp, "Home").setActiveColorResource(R.color.orange).setBadgeItem(mBadgeItem))
+                        .addItem(new BottomNavigationItem(R.drawable.ic_home_white_24dp, "Home").setActiveColorResource(R.color.orange))
                         .addItem(new BottomNavigationItem(R.drawable.ic_book_white_24dp, "Books").setActiveColorResource(R.color.teal))
                         .addItem(new BottomNavigationItem(R.drawable.ic_music_note_white_24dp, "Music").setActiveColorResource(R.color.blue))
                         .addItem(new BottomNavigationItem(R.drawable.ic_tv_white_24dp, "Movies & TV").setActiveColorResource(R.color.brown))
@@ -167,43 +173,29 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
         mBottomNavBar.setTabSelectedListener(this);
     }
 
-    private void setDefaultFragment() {
-        mFragmentManager = getSupportFragmentManager();
-        FragmentTransaction transaction = mFragmentManager.beginTransaction();
-//        mHomeFragment = mHomeFragment.newInstance("HomeFragment");
-        mHomeFragment = new Fragment();// ?????
-        transaction.add(R.id.home_content, mHomeFragment);
-        transaction.commit();
+    private void showFragment01() {
+
+        FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+        fragmentTransaction.show(mTestFragment);
+        fragmentTransaction.commit();
+
+        mHomeToolbar.setTitle("testFragment01");
+
+        if (mTestFragment.isAdded()) {
+            mTestFragment.notifyDataChanged();
+        }
     }
+    private void hideFragment01() {
 
-    @Override
-    protected HomePresenter createPresenter() {
-        return new HomePresenter(this);
-    }
+        FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
+        fragmentTransaction.hide(mTestFragment);
+        fragmentTransaction.commit();
 
-    @Override
-    protected int getLayoutResID() {
-        return R.layout.activity_home;
-    }
+        mHomeToolbar.setTitle("");
 
-    @Override
-    public void showLoading() {
-
-    }
-
-    @Override
-    public void hideLoading() {
-
-    }
-
-    @Override
-    public void success() {
-
-    }
-
-    @Override
-    public void failure() {
-
+        if (mTestFragment.isAdded()) {
+            mTestFragment.notifyDataChanged();
+        }
     }
 
     @Override
@@ -217,65 +209,62 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-//        item.setChecked(true); // change state of item
         int id = item.getItemId();
         String string = null;
         switch (id) {
-            case R.id.nav_me:
-                string = "我的";
+            case R.id.nav_item_1:
+                string = "nav_item_1";
                 break;
-            case R.id.nav_about:
-                string = "关于";
+            case R.id.nav_item_2:
+                string = "nav_item_2";
                 break;
-            case R.id.nav_friend:
-                string = "好友";
-                break;
-            case R.id.nav_manage:
-                string = "通知";
+            case R.id.nav_item_3:
+                string = "nav_item_3";
                 break;
             case R.id.nav_setting:
                 string = "设置";
                 break;
+            case R.id.nav_about:
+                string = "关于";
+                break;
         }
-//        if (!TextUtils.isEmpty(string)) {
-//            Toast.makeText(HomeActivity.this, "你点击了" + string, Toast.LENGTH_SHORT).show();
-//        }
-//        int size = mNavigationView.getMenu().size();
-//        Toast.makeText(HomeActivity.this, "size()  " + size, Toast.LENGTH_SHORT).show();
+        if (!TextUtils.isEmpty(string)) {
+            Toast.makeText(HomeActivity.this, "你点击了" + string, Toast.LENGTH_SHORT).show();
+        }
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.home_action_menu, menu);
-        //false hide or true show,
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        switch (id) {
-            case R.id.menu_github:
-                String url = "https://github.com/Ashok-Varma/BottomNavigation";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
-                return true;
-            case R.id.action_settings:
-                startActivity(new Intent(this, SnackBarActivity.class));
-                return true;
-            case R.id.action_another:
-                Toast.makeText(this, "action_another", Toast.LENGTH_SHORT).show();
-                return true;
-            default:
-                break;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.home_action_menu, menu);
+//        //false hide or true show,
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        int id = item.getItemId();
+//        switch (id) {
+//            case R.id.menu_github:
+//                String url = "https://github.com/Ashok-Varma/BottomNavigation";
+//                Intent i = new Intent(Intent.ACTION_VIEW);
+//                i.setData(Uri.parse(url));
+//                startActivity(i);
+//                return true;
+//            case R.id.action_settings:
+//                startActivity(new Intent(this, SnackBarActivity.class));
+//                return true;
+//            case R.id.action_another:
+//                Toast.makeText(this, "action_another", Toast.LENGTH_SHORT).show();
+//                return true;
+//            default:
+//                break;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
 
     @Override
@@ -284,6 +273,16 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
         if (mBadgeItem != null) {
             mBadgeItem.setText(Integer.toString(position));
         }
+
+        switch (position) {
+            case 0:
+                showFragment01();
+                break;
+            default:
+                hideFragment01();
+                break;
+        }
+
     }
 
     @Override
@@ -326,5 +325,14 @@ public class HomeActivity extends BaseActivity<IBaseView, HomePresenter> impleme
                 break;
         }
 
+    }
+
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        if (mTestFragment.isAdded()) {
+            getSupportFragmentManager().putFragment(outState, "TestFragment", mTestFragment);
+        }
     }
 }

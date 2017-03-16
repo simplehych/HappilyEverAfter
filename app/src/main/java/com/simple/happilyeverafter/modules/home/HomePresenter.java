@@ -1,9 +1,8 @@
 package com.simple.happilyeverafter.modules.home;
 
-import com.simple.sharelib.base.BasePresenter;
-import com.simple.sharelib.base.IBaseModel;
-import com.simple.sharelib.base.IBasePresenter;
-import com.simple.sharelib.base.IBaseView;
+import com.simple.sharelib.testbase.BasePresenter;
+import com.simple.sharelib.testbase.IBaseModel;
+import com.simple.sharelib.testbase.IBaseView;
 
 /**
  * Created by Anthony on 2017/3/14.

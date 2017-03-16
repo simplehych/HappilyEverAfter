@@ -1,6 +1,4 @@
-package com.simple.sharelib.base;
-
-import android.support.v7.app.AppCompatActivity;
+package com.simple.sharelib.testbase;
 
 /**
  * Created by Anthony on 2017/3/10.

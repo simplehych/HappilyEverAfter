@@ -1,4 +1,4 @@
-package com.simple.sharelib.base;
+package com.simple.sharelib.testbase;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

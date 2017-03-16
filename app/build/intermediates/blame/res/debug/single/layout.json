@@ -136,12 +136,20 @@
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_test_normal.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\item_test_normal.xml"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_test.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\fragment_test.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
@@ -162,6 +170,10 @@
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_test_head.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\item_test_head.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_snackbar.xml",

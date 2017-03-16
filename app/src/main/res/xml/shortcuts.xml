@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<shortcut-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/ic_star_circle"-->
+        <!--android:shortcutId="bookmark"-->
+        <!--android:shortcutShortLabel="@string/check_bookmarks"-->
+        <!--android:shortcutLongLabel="@string/check_bookmarks">-->
+
+        <!--<intent-->
+            <!--android:action="com.marktony.zhihudaily.bookmarks"-->
+            <!--android:targetPackage="com.marktony.zhihudaily"-->
+            <!--android:targetClass="com.marktony.zhihudaily.homepage.MainActivity" />-->
+
+        <!--<categories android:name="android.shortcut.conversation" />-->
+
+    <!--</shortcut>-->
+</shortcuts>

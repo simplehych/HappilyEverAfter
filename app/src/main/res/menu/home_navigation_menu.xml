@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="none">
+    <!-- group 表示组，有分割线；checkableBehavior single表示选中状态-->
+    <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_me"
-            android:title="我"
+            android:id="@+id/nav_item_1"
+            android:title="nav_item_1"
             android:icon="@drawable/ic_mine_gray_24"/>
         <item
-            android:id="@+id/nav_friend"
-            android:title="好友"
+            android:id="@+id/nav_item_2"
+            android:title="nav_item_2"
             android:icon="@drawable/ic_friends_gray_24"/>
     </group>
     <group android:checkableBehavior="none"
         android:id="@+id/group_manage">
         <item
-            android:id="@+id/nav_manage"
-            android:title="应用管理"
+            android:id="@+id/nav_item_3"
+            android:title="nav_item_3"
             android:icon="@drawable/ic_app_management_gray_24"/>
     </group>
     <group
@@ -25,6 +26,5 @@
             android:title="设置"/>
         <item android:id="@+id/nav_about"
             android:title="关于"/>
-
     </group>
 </menu>
