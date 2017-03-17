@@ -34,7 +34,7 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context="xyz.johntsai.jtgithub.SnackBarActivity"
-        tools:showIn="@layout/activity_home">
+        tools:showIn="@layout/activity_main">
 
        <Button
            android:id="@+id/showIndefinite"

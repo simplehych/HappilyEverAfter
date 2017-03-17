@@ -39,7 +39,7 @@ MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverA
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:10:9-52
-activity#com.simple.happilyeverafter.modules.home.HomeActivity
+activity#com.simple.happilyeverafter.modules.main.MainActivity
 ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:12:19-60

@@ -3,7 +3,6 @@ package com.simple.happilyeverafter.modules.fragments.testfragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -20,6 +19,7 @@ import com.simple.happilyeverafter.adapter.TestAdapter;
 import com.simple.happilyeverafter.bean.EBeanType;
 import com.simple.happilyeverafter.bean.TestBeanOne;
 import com.simple.happilyeverafter.bean.TestBeanTwo;
+import com.simple.sharelib.base.BaseFragment;
 
 import java.util.ArrayList;
 
@@ -29,7 +29,7 @@ import butterknife.ButterKnife;
 /**
  * Created by Anthony on 2017/3/16.
  */
-public class TestFragment extends Fragment implements ITestContract.View {
+public class TestFragment extends BaseFragment implements ITestContract.View {
 
     @BindView(R.id.test_swipe_refresh_layout)
     SwipeRefreshLayout mTestSwipeRefreshLayout;
@@ -66,9 +66,10 @@ public class TestFragment extends Fragment implements ITestContract.View {
         return view;
     }
 
+
     @Override
-    public void setPresenter(ITestContract.Presenter presenter) {
-        this.mTestPresnter = presenter;
+    public void setPresenter(Object presenter) {
+        this.mTestPresnter = (ITestContract.Presenter) presenter;
     }
 
     @Override

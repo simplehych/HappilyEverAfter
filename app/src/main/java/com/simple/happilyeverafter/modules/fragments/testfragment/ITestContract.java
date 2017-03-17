@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public interface ITestContract {
 
-    interface View extends IBaseView<Presenter> {
+    interface View extends IBaseView {
 
         void showResults(ArrayList<TestBeanOne> testBeanOneList, ArrayList<TestBeanTwo> testBeanTwoList, ArrayList<Integer> types);
 
