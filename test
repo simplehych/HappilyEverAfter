@@ -4,6 +4,7 @@ vi 编辑
 	：输入冒号
 	w 保存
 	q 退出
+
 cat 查看
 touch 创建文件
 mkdir 创建文件夹
