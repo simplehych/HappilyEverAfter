@@ -1,0 +1,13 @@
+vi 编辑
+	i 插入
+	esc 退出
+	：输入冒号
+	w 保存
+	q 退出
+cat 查看
+touch 创建文件
+mkdir 创建文件夹
+ls list文件列表
+ls -la 详情
+rm -rf 删除文件夹
+pwd 查看路径
