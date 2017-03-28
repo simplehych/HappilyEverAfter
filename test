@@ -12,3 +12,4 @@ ls list文件列表
 ls -la 详情
 rm -rf 删除文件夹
 pwd 查看路径
+
