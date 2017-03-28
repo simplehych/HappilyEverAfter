@@ -23,6 +23,10 @@
         </activity>
         <activity android:name="com.simple.happilyeverafter.modules.SnackBarActivity" />
         <activity android:name="com.simple.happilyeverafter.testmvp.TestView" />
+        <activity
+            android:name="com.tbruyelle.rxpermissions.ShadowActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>

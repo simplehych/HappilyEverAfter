@@ -28,6 +28,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace
 MERGED from [com.android.support:design:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\AndroidManifest.xml:22:5-20
 MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\HappilyEverAfter.Libraries\ShareLib\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:10:5-15:19
 MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.2.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:8:9-41
@@ -78,6 +79,11 @@ MERGED from [com.android.support:recyclerview-v7:25.2.0] D:\MyWorkspace\HappilyE
 MERGED from [com.android.support:transition:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton:butterknife:8.5.1] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\AndroidManifest.xml:5:5-43
 MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\HappilyEverAfter.Libraries\ShareLib\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.1.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\AndroidManifest.xml:19:5-43
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.trello:rxlifecycle-android:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.trello\rxlifecycle-android\0.7.0\AndroidManifest.xml:17:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding\0.4.0\AndroidManifest.xml:6:5-44
+MERGED from [com.trello:rxlifecycle-components:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.trello\rxlifecycle-components\0.7.0\AndroidManifest.xml:17:5-44
 MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.2.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:23:9-75
@@ -87,3 +93,11 @@ MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverA
 	android:minSdkVersion
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
+activity#com.tbruyelle.rxpermissions.ShadowActivity
+ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:11:9-14:75
+	android:launchMode
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:13:13-43
+	android:theme
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:12:13-70

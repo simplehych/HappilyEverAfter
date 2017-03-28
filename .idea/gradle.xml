@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/Functions" />
             <option value="$PROJECT_DIR$/Functions/MovieModule" />
             <option value="$PROJECT_DIR$/Functions/MusicModule" />
+            <option value="$PROJECT_DIR$/Functions/UserCenter" />
             <option value="$PROJECT_DIR$/Libraries" />
             <option value="$PROJECT_DIR$/Libraries/ShareLib" />
             <option value="$PROJECT_DIR$/app" />
@@ -24,6 +25,7 @@
             <option value="$PROJECT_DIR$/Functions" />
             <option value="$PROJECT_DIR$/Functions/MovieModule" />
             <option value="$PROJECT_DIR$/Functions/MusicModule" />
+            <option value="$PROJECT_DIR$/Functions/UserCenter" />
             <option value="$PROJECT_DIR$/Libraries" />
             <option value="$PROJECT_DIR$/Libraries/ShareLib" />
             <option value="$PROJECT_DIR$/app" />
