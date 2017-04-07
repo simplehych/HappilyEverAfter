@@ -15,21 +15,22 @@ ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:2:1-
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 application
 ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:5:5-22:19
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.3.1\AndroidManifest.xml:11:5-13:38
-MERGED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:transition:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\AndroidManifest.xml:22:5-20
-MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\HappilyEverAfter.Libraries\ShareLib\unspecified\AndroidManifest.xml:11:5-15:19
-MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:10:5-15:19
-MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\liumoyi\.android\build-cache\2a26d60112b9065c4334ae180344e5b4b770e80a\output\AndroidManifest.xml:11:5-13:38
+MERGED from [com.android.support:design:25.2.0] C:\Users\liumoyi\.android\build-cache\dd9536ade864e294788a55c27fcb2b7fadbc3eed\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\liumoyi\.android\build-cache\b2047530bfaa70c745b8b2ccd5c9158e4ca4636a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:11:5-24:19
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\ea576e3d30e90672f51ad46d360e827f2699491e\output\AndroidManifest.xml:22:5-20
+MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\Libraries\ShareLib\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:10:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\9166259e4f1563bf800e82a1d8543e1520c8b036\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\liumoyi\.android\build-cache\4a7e6197982c0b6d15964939166b2198101befe3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\liumoyi\.android\build-cache\b2534fccae6630861ec91fba0a2ab17453214bdb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\liumoyi\.android\build-cache\aa2d51c1e725c655635f5efd9c448dc23388b348\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\liumoyi\.android\build-cache\23309969a7d54365cd0b37a6fbee6a6a34ee9dcd\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\liumoyi\.android\build-cache\6f7102637e91baac5f31bbffcf6952c5b0806667\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\91e4182daa2f54d3ecc98fe006b05a1c3e53b9fc\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\e4105ffad9fbab1dea661cfe262cab14af4e9e75\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\liumoyi\.android\build-cache\3e2b7764a9971597a6671e9ff85caf32761cc195\output\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -39,7 +40,7 @@ MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverA
 	android:icon
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:10:9-52
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.simple.happilyeverafter.modules.main.MainActivity
 ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
@@ -64,40 +65,45 @@ ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:20:9
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:20:19-51
 uses-sdk
 INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.3.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.5.1] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\AndroidManifest.xml:5:5-43
-MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\HappilyEverAfter.Libraries\ShareLib\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [io.reactivex:rxandroid:1.1.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\AndroidManifest.xml:19:5-43
-MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.trello:rxlifecycle-android:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.trello\rxlifecycle-android\0.7.0\AndroidManifest.xml:17:5-44
-MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.jakewharton.rxbinding\rxbinding\0.4.0\AndroidManifest.xml:6:5-44
-MERGED from [com.trello:rxlifecycle-components:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.trello\rxlifecycle-components\0.7.0\AndroidManifest.xml:17:5-44
-MERGED from [com.android.support:cardview-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\liumoyi\.android\build-cache\2a26d60112b9065c4334ae180344e5b4b770e80a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\liumoyi\.android\build-cache\dd9536ade864e294788a55c27fcb2b7fadbc3eed\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\40db1e4f47348a03f0054bca213e370f656cef1a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\liumoyi\.android\build-cache\b2047530bfaa70c745b8b2ccd5c9158e4ca4636a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\liumoyi\.android\build-cache\1ee8afa07185e01e6a25f01c535d0c98c7a39dda\output\AndroidManifest.xml:5:5-43
+MERGED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\ea576e3d30e90672f51ad46d360e827f2699491e\output\AndroidManifest.xml:20:5-43
+MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\Libraries\ShareLib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.trello:rxlifecycle-components:0.7.0] C:\Users\liumoyi\.android\build-cache\edccaa31e7b66418d85df5b2ed8eda205568c7ad\output\AndroidManifest.xml:17:5-44
+MERGED from [com.trello:rxlifecycle-android:0.7.0] C:\Users\liumoyi\.android\build-cache\4ba43ff2bed6f64a69bae1779e182faae8aef6eb\output\AndroidManifest.xml:17:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\liumoyi\.android\build-cache\8b11db52fd3e956d73e8f1be925ceae407ffbdf6\output\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\liumoyi\.android\build-cache\1bd8336d2709fad64878bb34593c3d1202c21940\output\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\9166259e4f1563bf800e82a1d8543e1520c8b036\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\liumoyi\.android\build-cache\4a7e6197982c0b6d15964939166b2198101befe3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\liumoyi\.android\build-cache\b2534fccae6630861ec91fba0a2ab17453214bdb\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\liumoyi\.android\build-cache\aa2d51c1e725c655635f5efd9c448dc23388b348\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\liumoyi\.android\build-cache\23309969a7d54365cd0b37a6fbee6a6a34ee9dcd\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\liumoyi\.android\build-cache\6f7102637e91baac5f31bbffcf6952c5b0806667\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\91e4182daa2f54d3ecc98fe006b05a1c3e53b9fc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\e4105ffad9fbab1dea661cfe262cab14af4e9e75\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\liumoyi\.android\build-cache\3e2b7764a9971597a6671e9ff85caf32761cc195\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.2.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.2.0] C:\Users\liumoyi\.android\build-cache\dd9536ade864e294788a55c27fcb2b7fadbc3eed\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
-activity#com.tbruyelle.rxpermissions.ShadowActivity
-ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:11:9-14:75
-	android:launchMode
-		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:13:13-43
-	android:theme
-		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:14:13-72
+activity#qdx.bezierviewpager_compile.MainActivity
+ADDED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] D:\MyWorkspace\HappilyEverAfter\app\build\intermediates\exploded-aar\com.tbruyelle.rxpermissions\rxpermissions\0.7.0\AndroidManifest.xml:12:13-70
+		ADDED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:17:19-74
+activity#com.tbruyelle.rxpermissions.ShadowActivity
+ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:11:9-14:75
+	android:launchMode
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:13:13-43
+	android:theme
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:12:13-70

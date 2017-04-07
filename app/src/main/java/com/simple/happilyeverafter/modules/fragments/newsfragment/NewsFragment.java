@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import com.simple.happilyeverafter.R;
 import com.simple.happilyeverafter.adapter.HomeFragmentPagerAdapter;
 import com.simple.happilyeverafter.adapter.NewsFragmentPagerAdapter;
+import com.simple.happilyeverafter.modules.fragments.FragmentFour;
 import com.simple.happilyeverafter.modules.fragments.FragmentOne;
 import com.simple.happilyeverafter.modules.fragments.FragmentThree;
 import com.simple.happilyeverafter.modules.fragments.FragmentTwo;
@@ -49,6 +50,7 @@ public class NewsFragment extends BaseFragment {
         fragments.add(new FragmentThree());
         fragments.add(new FragmentThree());
         fragments.add(new FragmentThree());
+        fragments.add(new FragmentFour());
 
         ArrayList<String> names = new ArrayList<>();
         names.add("News 1");
@@ -56,6 +58,7 @@ public class NewsFragment extends BaseFragment {
         names.add("News 3");
         names.add("News 3");
         names.add("News 3");
+        names.add("News viewPager");
 
         mNewsFragmentPagerAdapter = new NewsFragmentPagerAdapter(getChildFragmentManager(),fragments,names);
         mNewsViewPager.setAdapter(mNewsFragmentPagerAdapter);
