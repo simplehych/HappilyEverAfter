@@ -1,10 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
@@ -14,14 +12,14 @@ ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:2:1-
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:5:5-52:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\liumoyi\.android\build-cache\2a26d60112b9065c4334ae180344e5b4b770e80a\output\AndroidManifest.xml:11:5-13:38
 MERGED from [com.android.support:design:25.2.0] C:\Users\liumoyi\.android\build-cache\dd9536ade864e294788a55c27fcb2b7fadbc3eed\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.2.0] C:\Users\liumoyi\.android\build-cache\b2047530bfaa70c745b8b2ccd5c9158e4ca4636a\output\AndroidManifest.xml:22:5-20
-MERGED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:11:5-24:19
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\ea576e3d30e90672f51ad46d360e827f2699491e\output\AndroidManifest.xml:22:5-20
-MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\Libraries\ShareLib\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [HappilyEverAfter.Libraries:CommonLibrary:unspecified] D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
 MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:10:5-15:19
+MERGED from [HappilyEverAfter.Modules:UserCenter:unspecified] D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\build\intermediates\bundles\default\AndroidManifest.xml:11:5-13:19
+MERGED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:11:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\9166259e4f1563bf800e82a1d8543e1520c8b036\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.2.0] C:\Users\liumoyi\.android\build-cache\4a7e6197982c0b6d15964939166b2198101befe3\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\liumoyi\.android\build-cache\b2534fccae6630861ec91fba0a2ab17453214bdb\output\AndroidManifest.xml:25:5-20
@@ -31,53 +29,81 @@ MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\liumoyi\.an
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\91e4182daa2f54d3ecc98fe006b05a1c3e53b9fc\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\e4105ffad9fbab1dea661cfe262cab14af4e9e75\output\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\liumoyi\.android\build-cache\3e2b7764a9971597a6671e9ff85caf32761cc195\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\ea576e3d30e90672f51ad46d360e827f2699491e\output\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:9:9-41
 	android:supportsRtl
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:10:9-35
 	android:allowBackup
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.simple.happilyeverafter.modules.main.MainActivity
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:12:9-17:20
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:11:9-40
 	android:name
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:12:19-60
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:6:9-42
+activity#com.simple.happilyeverafter.arouter.SchameFilterActivity
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:13:9-40:20
+	android:name
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:13:19-63
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:15:13-24:29
+data
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:16:17-18:47
+	android:host
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:17:21-48
+	android:scheme
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:18:21-45
+action#android.intent.action.VIEW
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:22:17-75
+	android:name
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:22:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:23:27-75
+activity#com.simple.happilyeverafter.test.XXX.main.MainActivity
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:42:9-47:20
+	android:name
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:42:19-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:13:13-16:29
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:43:13-46:29
 action#android.intent.action.MAIN
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:15:27-74
-activity#com.simple.happilyeverafter.modules.SnackBarActivity
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:19:9-71
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:45:27-74
+activity#com.simple.happilyeverafter.test.XXX.activity.SnackBarActivity
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:49:9-81
 	android:name
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:19:19-59
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:49:19-69
 activity#com.simple.happilyeverafter.testmvp.TestView
-ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:20:9-63
+ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:50:9-63
 	android:name
-		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:20:19-51
+		ADDED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml:50:19-51
 uses-sdk
 INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\liumoyi\.android\build-cache\2a26d60112b9065c4334ae180344e5b4b770e80a\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:25.2.0] C:\Users\liumoyi\.android\build-cache\dd9536ade864e294788a55c27fcb2b7fadbc3eed\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\40db1e4f47348a03f0054bca213e370f656cef1a\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.2.0] C:\Users\liumoyi\.android\build-cache\b2047530bfaa70c745b8b2ccd5c9158e4ca4636a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\liumoyi\.android\build-cache\1ee8afa07185e01e6a25f01c535d0c98c7a39dda\output\AndroidManifest.xml:5:5-43
-MERGED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\ea576e3d30e90672f51ad46d360e827f2699491e\output\AndroidManifest.xml:20:5-43
-MERGED from [HappilyEverAfter.Libraries:ShareLib:unspecified] D:\MyWorkspace\HappilyEverAfter\Libraries\ShareLib\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [HappilyEverAfter.Libraries:CommonLibrary:unspecified] D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:6:5-8:41
 MERGED from [com.trello:rxlifecycle-components:0.7.0] C:\Users\liumoyi\.android\build-cache\edccaa31e7b66418d85df5b2ed8eda205568c7ad\output\AndroidManifest.xml:17:5-44
 MERGED from [com.trello:rxlifecycle-android:0.7.0] C:\Users\liumoyi\.android\build-cache\4ba43ff2bed6f64a69bae1779e182faae8aef6eb\output\AndroidManifest.xml:17:5-44
 MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\liumoyi\.android\build-cache\8b11db52fd3e956d73e8f1be925ceae407ffbdf6\output\AndroidManifest.xml:6:5-44
 MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\liumoyi\.android\build-cache\1bd8336d2709fad64878bb34593c3d1202c21940\output\AndroidManifest.xml:19:5-43
+MERGED from [HappilyEverAfter.Modules:UserCenter:unspecified] D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\liumoyi\.android\build-cache\1ee8afa07185e01e6a25f01c535d0c98c7a39dda\output\AndroidManifest.xml:5:5-43
+MERGED from [com.alibaba:arouter-api:1.2.0.3] C:\Users\liumoyi\.android\build-cache\3a0e5e65a21b46d67e3e3cda5b2f640532193205\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\9166259e4f1563bf800e82a1d8543e1520c8b036\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.2.0] C:\Users\liumoyi\.android\build-cache\4a7e6197982c0b6d15964939166b2198101befe3\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\liumoyi\.android\build-cache\b2534fccae6630861ec91fba0a2ab17453214bdb\output\AndroidManifest.xml:21:5-23:60
@@ -87,6 +113,7 @@ MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\liumoyi\.an
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\91e4182daa2f54d3ecc98fe006b05a1c3e53b9fc\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\liumoyi\.android\build-cache\e4105ffad9fbab1dea661cfe262cab14af4e9e75\output\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\liumoyi\.android\build-cache\3e2b7764a9971597a6671e9ff85caf32761cc195\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\liumoyi\.android\build-cache\ea576e3d30e90672f51ad46d360e827f2699491e\output\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.2.0] C:\Users\liumoyi\.android\build-cache\dd9536ade864e294788a55c27fcb2b7fadbc3eed\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -95,10 +122,6 @@ MERGED from [com.android.support:support-compat:25.2.0] C:\Users\liumoyi\.androi
 	android:minSdkVersion
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyWorkspace\HappilyEverAfter\app\src\main\AndroidManifest.xml
-activity#qdx.bezierviewpager_compile.MainActivity
-ADDED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:17:9-23:20
-	android:name
-		ADDED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:17:19-74
 activity#com.tbruyelle.rxpermissions.ShadowActivity
 ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:11:9-14:75
 	android:launchMode
@@ -107,3 +130,11 @@ ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.a
 		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:14:13-72
 	android:name
 		ADDED from [com.tbruyelle.rxpermissions:rxpermissions:0.7.0] C:\Users\liumoyi\.android\build-cache\4f88830232412e2285768bdcfd79c7a71ff3c2d5\output\AndroidManifest.xml:12:13-70
+activity#com.simple.usercenter.MainActivity
+ADDED from [HappilyEverAfter.Modules:UserCenter:unspecified] D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\build\intermediates\bundles\default\AndroidManifest.xml:12:9-71
+	android:name
+		ADDED from [HappilyEverAfter.Modules:UserCenter:unspecified] D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\build\intermediates\bundles\default\AndroidManifest.xml:12:19-68
+activity#qdx.bezierviewpager_compile.MainActivity
+ADDED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from [com.github.qdxxxx:BezierViewPager:v1.0.2] C:\Users\liumoyi\.android\build-cache\5dea95f5e8805476d3748510fe0eac5f0a438f29\output\AndroidManifest.xml:17:19-74

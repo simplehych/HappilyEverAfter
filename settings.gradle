@@ -1,5 +1,3 @@
-include ':app', ':core'
-include ':Libraries:ShareLib'
-include ':Functions:UserCenter'
-include ':Functions:MusicModule'
-include ':Functions:MovieModule'
+include ':app'
+include ':Libraries:CommonLibrary'
+include ':Modules:UserCenter'

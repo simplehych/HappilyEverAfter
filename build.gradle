@@ -23,9 +23,46 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
 //apply plugin: 'android-apt'
 //
 //dependencies {
 //    compile 'com.jakewharton:butterknife:8.0.1'
 //    apt 'com.jakewharton:butterknife-compiler:8.0.1'
 //}
+
+/**
+ * 在根项目build.gradle文件下统一各个组件build.gradle的配置
+ * 使用方式：在各组件中 rootProject.ext.XXX
+ * eg: app组件中compileSdkVersion rootProject.ext.compileSdkVersion
+ * 注意：对应值的类型
+ */
+ext {
+
+    // Url
+    serverUrl = "http://serverUrl"
+    userCenterUrl = "http://userCenterUrl"
+
+    // Sdk and version
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
+    minSdkVersion = 16
+    targetSdkVersion = 25
+    versionCode = 1 //time:20170411
+    versionName = "1.0"
+
+    // App dependencies version
+    supportLibraryVersion = "25.2.0"
+
+    ARouterApi = "1.2.0.3"
+    ARouterCompiler = "1.1.1.1"
+
+    butterKnifeVersion = "8.5.1"
+    butterKnifeAnnotationVersion = "8.5.1"
+
+    /**
+     * 右侧的值也可在根项目的gradle.properties中定义
+     * eg:localTestServerUrl在gradle.properties中测试统一配置的服务器URL：http://www.localTestServerUrl.com
+     */
+    //testServerUrl = localTestServerUrl
+}

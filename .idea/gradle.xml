@@ -8,14 +8,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Functions" />
-            <option value="$PROJECT_DIR$/Functions/MovieModule" />
-            <option value="$PROJECT_DIR$/Functions/MusicModule" />
-            <option value="$PROJECT_DIR$/Functions/UserCenter" />
             <option value="$PROJECT_DIR$/Libraries" />
-            <option value="$PROJECT_DIR$/Libraries/ShareLib" />
+            <option value="$PROJECT_DIR$/Libraries/CommonLibrary" />
+            <option value="$PROJECT_DIR$/Modules" />
+            <option value="$PROJECT_DIR$/Modules/UserCenter" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/core" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
