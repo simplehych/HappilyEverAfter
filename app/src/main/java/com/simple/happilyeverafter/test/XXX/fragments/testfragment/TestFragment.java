@@ -19,7 +19,7 @@ import com.simple.happilyeverafter.test.XXX.adapter.TestAdapter;
 import com.simple.happilyeverafter.test.XXX.bean.EBeanType;
 import com.simple.happilyeverafter.test.XXX.bean.TestBeanOne;
 import com.simple.happilyeverafter.test.XXX.bean.TestBeanTwo;
-import com.simple.sharelib.base.BaseFragment;
+import com.simple.commonlibrary.test.base.BaseFragment;
 
 import java.util.ArrayList;
 

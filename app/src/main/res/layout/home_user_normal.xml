@@ -139,7 +139,7 @@
         android:background="#f00"
         android:orientation="horizontal">
 
-        <com.simple.sharelib.widget.ImgTextView
+        <com.simple.commonlibrary.widget.ImgTextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -148,9 +148,9 @@
             view:drawable_height="35dp"
             view:drawable_location="top"
             view:drawable_src="@mipmap/ic_launcher"
-            view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+            view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
-        <com.simple.sharelib.widget.ImgTextView
+        <com.simple.commonlibrary.widget.ImgTextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -159,9 +159,9 @@
             view:drawable_height="35dp"
             view:drawable_location="top"
             view:drawable_src="@mipmap/ic_launcher"
-            view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+            view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
-        <com.simple.sharelib.widget.ImgTextView
+        <com.simple.commonlibrary.widget.ImgTextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -170,7 +170,7 @@
             view:drawable_height="35dp"
             view:drawable_location="top"
             view:drawable_src="@mipmap/ic_launcher"
-            view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+            view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
     </LinearLayout>
 

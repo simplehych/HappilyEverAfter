@@ -1,4 +1,4 @@
-package com.simple.sharelib;
+package com.simple.commonlibrary;
 
 import org.junit.Test;
 

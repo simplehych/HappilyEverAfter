@@ -16,7 +16,7 @@ import com.simple.happilyeverafter.test.XXX.fragments.FragmentFour;
 import com.simple.happilyeverafter.test.XXX.fragments.FragmentOne;
 import com.simple.happilyeverafter.test.XXX.fragments.FragmentThree;
 import com.simple.happilyeverafter.test.XXX.fragments.FragmentTwo;
-import com.simple.sharelib.base.BaseFragment;
+import com.simple.commonlibrary.test.base.BaseFragment;
 
 import java.util.ArrayList;
 

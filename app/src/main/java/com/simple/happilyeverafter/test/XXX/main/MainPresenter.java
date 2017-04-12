@@ -1,8 +1,8 @@
 package com.simple.happilyeverafter.test.XXX.main;
 
-import com.simple.sharelib.testbase.BasePresenter;
-import com.simple.sharelib.testbase.IBaseModel;
-import com.simple.sharelib.testbase.IBaseView;
+import com.simple.commonlibrary.test.base.testbase.BasePresenter;
+import com.simple.commonlibrary.test.base.testbase.IBaseModel;
+import com.simple.commonlibrary.test.base.testbase.IBaseView;
 
 /**
  * Created by Anthony on 2017/3/14.

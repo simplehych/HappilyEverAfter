@@ -84,7 +84,7 @@
                     android:text="历史回复总量：222条" />
             </LinearLayout>
 
-            <com.simple.sharelib.widget.ImgTextView
+            <com.simple.commonlibrary.widget.ImgTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
@@ -92,7 +92,7 @@
                 view:drawable_height="35dp"
                 view:drawable_location="left"
                 view:drawable_src="@mipmap/ic_launcher"
-                view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+                view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
         </LinearLayout>
     </LinearLayout>
@@ -103,7 +103,7 @@
         android:layout_height="150dp"
         android:gravity="center_vertical">
 
-        <com.simple.sharelib.widget.ImgTextView
+        <com.simple.commonlibrary.widget.ImgTextView
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="center_vertical"
@@ -111,7 +111,7 @@
             view:drawable_height="35dp"
             view:drawable_location="left"
             view:drawable_src="@mipmap/ic_launcher"
-            view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+            view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -124,14 +124,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.simple.sharelib.widget.ImgTextView
+        <com.simple.commonlibrary.widget.ImgTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="提交交办记录"
             view:drawable_height="35dp"
             view:drawable_location="left"
             view:drawable_src="@mipmap/ic_launcher"
-            view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+            view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -144,14 +144,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.simple.sharelib.widget.ImgTextView
+        <com.simple.commonlibrary.widget.ImgTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="被分配的交办记录"
             view:drawable_height="35dp"
             view:drawable_location="left"
             view:drawable_src="@mipmap/ic_launcher"
-            view:drawable_width="35dp"></com.simple.sharelib.widget.ImgTextView>
+            view:drawable_width="35dp"></com.simple.commonlibrary.widget.ImgTextView>
 
         <ImageView
             android:layout_width="wrap_content"

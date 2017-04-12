@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.simple.happilyeverafter.R;
-import com.simple.sharelib.base.BaseFragment;
+import com.simple.commonlibrary.test.base.BaseFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

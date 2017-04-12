@@ -1,4 +1,4 @@
-package com.simple.sharelib.widget;
+package com.simple.commonlibrary.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.simple.sharelib.R;
+import com.simple.commonlibrary.R;
 
 /**
  * Created by Anthony on 2017/3/20.

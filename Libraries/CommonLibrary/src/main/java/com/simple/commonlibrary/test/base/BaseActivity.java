@@ -1,4 +1,4 @@
-package com.simple.sharelib.base;
+package com.simple.commonlibrary.test.base;
 
 import android.support.v7.app.AppCompatActivity;
 

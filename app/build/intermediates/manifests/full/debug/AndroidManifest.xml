@@ -52,7 +52,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.simple.happilyeverafter.test.XXX.activity.SnackBarActivity" />
-        <activity android:name="com.simple.happilyeverafter.testmvp.TestView" />
         <activity
             android:name="com.tbruyelle.rxpermissions.ShadowActivity"
             android:launchMode="singleTop"

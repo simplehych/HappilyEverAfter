@@ -3,8 +3,8 @@ package com.simple.happilyeverafter.test.XXX.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
-import com.simple.sharelib.base.BaseFragment;
-import com.simple.sharelib.base.BaseFragmentPagerAdapter;
+import com.simple.commonlibrary.test.base.BaseFragment;
+import com.simple.commonlibrary.test.base.BaseFragmentPagerAdapter;
 
 import java.util.ArrayList;
 

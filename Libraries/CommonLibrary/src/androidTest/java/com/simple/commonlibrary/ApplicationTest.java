@@ -1,4 +1,4 @@
-package com.simple.sharelib;
+package com.simple.commonlibrary;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

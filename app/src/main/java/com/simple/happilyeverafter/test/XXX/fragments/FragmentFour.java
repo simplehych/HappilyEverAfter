@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.simple.happilyeverafter.R;
-import com.simple.sharelib.base.BaseFragment;
+import com.simple.commonlibrary.test.base.BaseFragment;
 
 import java.util.ArrayList;
 

@@ -18,8 +18,8 @@ import com.simple.happilyeverafter.test.XXX.adapter.HomeFragmentPagerAdapter;
 import com.simple.happilyeverafter.test.XXX.fragments.FragmentThree;
 import com.simple.happilyeverafter.test.XXX.fragments.FragmentTwo;
 import com.simple.happilyeverafter.test.XXX.fragments.newsfragment.NewsFragment;
-import com.simple.sharelib.base.BaseFragment;
-import com.simple.sharelib.base.BaseViewPager;
+import com.simple.commonlibrary.test.base.BaseFragment;
+import com.simple.commonlibrary.test.base.BaseViewPager;
 
 import java.util.ArrayList;
 

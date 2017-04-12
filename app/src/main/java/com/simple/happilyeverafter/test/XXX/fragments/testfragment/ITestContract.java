@@ -3,8 +3,8 @@ package com.simple.happilyeverafter.test.XXX.fragments.testfragment;
 import com.simple.happilyeverafter.test.XXX.bean.EBeanType;
 import com.simple.happilyeverafter.test.XXX.bean.TestBeanOne;
 import com.simple.happilyeverafter.test.XXX.bean.TestBeanTwo;
-import com.simple.sharelib.base.IBasePresenter;
-import com.simple.sharelib.base.IBaseView;
+import com.simple.commonlibrary.test.base.IBasePresenter;
+import com.simple.commonlibrary.test.base.IBaseView;
 
 import java.util.ArrayList;
 

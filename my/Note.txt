@@ -18,3 +18,41 @@ Dagger不支持循环依赖，及依赖关系图中不能出现环。原因很�
 
 1、保存公共Library
 2、RxBus通信
+
+随笔记：
+1 transaction.addToBackStack(this);类似回退栈，其实是ArrayList
+添加之后点击返回可以回到之前的Fragment
+http://blog.csdn.net/wenxuzl99/article/details/16112725/
+
+2 注解是为编译时检查服务用的，不用影响程序运行，后来人们利用反射解析注解，
+干涉程序的运行，大量的反射，影响性能。
+	后来java1.6出现注解处理器，annotation processor tool简称apt
+http://blog.csdn.net/a153614131/article/details/53248571
+
+3 反射给java提供了，运行时获取一个类实例的可能，这一点非常灵活
+			// 1,获取字节码文件  
+			Class<?> clazz = Class.forName("com.example.reflecr.Reflex");  
+            // 2,获取方法  
+            Method method = clazz.getMethod("getReflex");  
+            //3，创建对应字节码类的实例对象  
+            Reflex reflex = (Reflex) clazz.newInstance();  
+            //4，调用方法，拿到返回的string"测试"  
+            String value = (String) method.invoke(reflex); 
+
+			package com.example.reflecr;  
+			  
+			  
+			import android.app.Activity;  
+			import android.util.Log;  
+			  
+			public class Reflex extends Activity {  
+				private static String getReflex() {  
+					Log.i("TAG", "进来了反射");  
+					String reflexResult ="测试";  
+					return reflexResult;  
+			}  	
+
+4 映射文件
+分组管理，按需加载策略
+https://yq.aliyun.com/articles/71687?t=t1
+		

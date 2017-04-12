@@ -1,4 +1,4 @@
-package com.simple.sharelib.testbase;
+package com.simple.commonlibrary.test.base.testbase;
 
 /**
  * Created by Anthony on 2017/3/10.
