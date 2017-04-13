@@ -10,22 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9493052-8ff8-48cc-b2e9-78bd279127bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BasePresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/manager/ActivityManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/rx/RxBus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/rx/RxManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/rx/RxSubscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/utils/NetWorkUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/utils/TUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/utils/ToastUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/mipmap-xhdpi/img_default_movie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/mipmap-xhdpi/img_four_bi_three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/mipmap-xhdpi/img_one_bi_one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/mipmap-xhdpi/img_two_bi_one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragmentAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragmentStateAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/glide/GlideUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/Permissions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsResultAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/ICommonService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/RetrofitManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/simple/happilyeverafter/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/simple/happilyeverafter/R.java" />
@@ -34,42 +36,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/adapter/HomeFragmentPagerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/adapter/HomeFragmentPagerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/adapter/NewsFragmentPagerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/adapter/NewsFragmentPagerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentFour.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentFour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentOne.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentThree.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentThree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentTwo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/FragmentTwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/homefragment/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/homefragment/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/newsfragment/NewsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/newsfragment/NewsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/testfragment/ITestContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/testfragment/ITestContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/testfragment/TestFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/fragments/testfragment/TestFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/main/MainModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/main/MainModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/main/MainPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/test/XXX/main/MainPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_user_institution.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_user_institution.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_user_normal.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_user_normal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my/Note.txt" afterPath="$PROJECT_DIR$/my/Note.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/androidTest/java/com/simple/sharelib/ApplicationTest.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/androidTest/java/com/simple/commonlibrary/ApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/base/BaseActivity.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/BaseActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/base/BaseFragment.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/BaseFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/base/BaseFragmentPagerAdapter.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/BaseFragmentPagerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/base/BaseViewPager.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/BaseViewPager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/base/IBasePresenter.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/IBasePresenter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/base/IBaseView.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/IBaseView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/testbase/BaseActivity.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/BaseActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/testbase/BasePresenter.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/BasePresenter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/testbase/BaseView.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/BaseView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/testbase/IBaseModel.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/IBaseModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/testbase/IBasePresenter.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/IBasePresenter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/testbase/IBaseView.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/IBaseView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/sharelib/widget/ImgTextView.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/widget/ImgTextView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/src/test/java/com/simple/sharelib/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/src/test/java/com/simple/commonlibrary/ExampleUnitTest.java" />
     </list>
     <ignored path="HappilyEverAfter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,67 +70,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-447">
-              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2277#2278#0" expanded="true" />
-                <element signature="e#2340#2341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/UserCenter/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="60" column="12" selection-start-line="57" selection-start-column="3" selection-end-line="60" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePresenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BasePresenter.java">
+      <file leaf-file-name="BaseFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseView.java">
+      <file leaf-file-name="PermissionsResultAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsResultAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="275">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionsUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-78">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RetrofitManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/RetrofitManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -170,7 +113,7 @@
       <file leaf-file-name="BaseApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="571">
               <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -179,31 +122,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/testbase/BaseActivity.java">
+      <file leaf-file-name="RxSubscriber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/rx/RxSubscriber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/BaseActivity.java">
+      <file leaf-file-name="GlideUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/glide/GlideUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="385">
+              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICommonService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/ICommonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/test/base/BaseFragment.java">
+      <file leaf-file-name="Manifest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-25/android.jar!/android/Manifest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="138" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -385,11 +352,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoImagepipelineBase100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -631,6 +593,11 @@
                 <option name="name" value="extractProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare jp.wasabeef:glide-transformations:2.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareJpWasabeefGlideTransformations201Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -725,11 +692,6 @@
                 <option name="name" value="preBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoFbcore100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all PreRelease builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemblePreRelease" />
@@ -802,11 +764,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processPreReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base-support:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBaseSupport0120Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -884,11 +841,6 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForPreReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:drawee:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoDrawee100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare io.reactivex:rxandroid:1.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareIoReactivexRxandroid110Library" />
@@ -905,11 +857,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoImagepipeline100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a bundle containing the library in debug." />
@@ -1192,11 +1139,6 @@
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBase0120Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebug" />
               </ExternalTaskPojo>
@@ -1286,11 +1228,6 @@
                 <option name="name" value="compilePreReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fresco:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookFrescoFresco100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="signingReport" />
@@ -1357,11 +1294,6 @@
                 <option name="name" value="packageReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:drawee:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoDrawee100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare io.reactivex:rxandroid:1.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="prepareIoReactivexRxandroid110Library" />
@@ -1386,11 +1318,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="prepareDebugDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoImagepipeline100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a bundle containing the library in debug." />
@@ -1534,11 +1461,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoImagepipelineBase100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
@@ -1840,6 +1762,11 @@
                 <option name="name" value="extractProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare jp.wasabeef:glide-transformations:2.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
+                <option name="name" value="prepareJpWasabeefGlideTransformations201Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -1895,11 +1822,6 @@
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBase0120Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="mergeDebugAndroidTestResources" />
               </ExternalTaskPojo>
@@ -1947,11 +1869,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoFbcore100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
@@ -2050,16 +1967,6 @@
                 <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base-support:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBaseSupport0120Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fresco:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
-                <option name="name" value="prepareComFacebookFrescoFresco100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
@@ -2149,11 +2056,6 @@
                 <option name="name" value="packageReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:drawee:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoDrawee100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare io.reactivex:rxandroid:1.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="prepareIoReactivexRxandroid110Library" />
@@ -2178,11 +2080,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="prepareDebugDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoImagepipeline100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a bundle containing the library in debug." />
@@ -2326,11 +2223,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="compileDebugAndroidTestShaders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoImagepipelineBase100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
@@ -2632,6 +2524,11 @@
                 <option name="name" value="extractProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare jp.wasabeef:glide-transformations:2.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
+                <option name="name" value="prepareJpWasabeefGlideTransformations201Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -2687,11 +2584,6 @@
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBase0120Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="mergeDebugAndroidTestResources" />
               </ExternalTaskPojo>
@@ -2739,11 +2631,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoFbcore100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
@@ -2840,16 +2727,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base-support:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBaseSupport0120Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fresco:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
-                <option name="name" value="prepareComFacebookFrescoFresco100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/Libraries/CommonLibrary" />
@@ -4474,11 +4351,6 @@
                 <option name="name" value="compileDebugAndroidTestShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline-base:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoImagepipelineBase100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
@@ -4697,6 +4569,11 @@
                 <option name="name" value="extractProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare jp.wasabeef:glide-transformations:2.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareJpWasabeefGlideTransformations201Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -4787,11 +4664,6 @@
                 <option name="name" value="preBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fbcore:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoFbcore100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all PreRelease builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="assemblePreRelease" />
@@ -4860,11 +4732,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processPreReleaseManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base-support:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBaseSupport0120Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -4938,11 +4805,6 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForPreReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:drawee:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoDrawee100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare io.reactivex:rxandroid:1.1.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareIoReactivexRxandroid110Library" />
@@ -4955,11 +4817,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="assembleReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:imagepipeline:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoImagepipeline100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -5209,11 +5066,6 @@
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:animated-base:0.12.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoAnimatedBase0120Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="javaPreCompileDebug" />
               </ExternalTaskPojo>
@@ -5303,11 +5155,6 @@
                 <option name="name" value="compilePreReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.fresco:fresco:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookFrescoFresco100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="signingReport" />
@@ -5366,7 +5213,7 @@
         <entry key="D:/MyRepository/AnimeTaste" value="5944795679416" />
         <entry key="D:/MyRepository/cyclestreets" value="10403364971336" />
         <entry key="$PROJECT_DIR$/../ChengduDaily" value="4466337236423" />
-        <entry key="D:\MyWorkspace\HappilyEverAfter" value="7459591971804" />
+        <entry key="D:\MyWorkspace\HappilyEverAfter" value="7459651138896" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -6772,8 +6619,15 @@
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/manager/ActivityManager.java" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/utils/TUtil.java" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragment.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragmentAdapter.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragmentStateAdapter.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsUtils.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/ICommonService.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/RetrofitManager.java" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/glide/GlideUtils.java" />
       </list>
     </option>
   </component>
@@ -7080,11 +6934,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HappilyEverAfter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HappilyEverAfter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="commonlibrary" />
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mipmap-xhdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -7119,124 +7003,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="commonlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -7416,9 +7182,13 @@
       <recent name="com.simple.happilyeverafter.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.simple.commonlibrary.retrofit" />
+      <recent name="com.simple.commonlibrary.base" />
       <recent name="com.simple.happilyeverafter.modules.fragments" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\mipmap-xhdpi" />
+      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\java\com\simple\commonlibrary\permission" />
       <recent name="D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\src\main\debug" />
       <recent name="D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\src\main\release" />
       <recent name="D:\MyWorkspace\HappilyEverAfter\app\src\main\res\layout" />
@@ -7751,7 +7521,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -7766,7 +7536,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -7820,92 +7590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/UserCenter/src/main/debug/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/UserCenter/src/main/release/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/UserCenter/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/arouter-annotation/1.0.3/8066d7b4c1dee13c4875db02d410bb1f903d4544/arouter-annotation-1.0.3-sources.jar!/com/alibaba/android/arouter/facade/annotation/Param.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/arouter/TestRouterActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/api/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/安卓开发工具或网站.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/UserCenter/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my/Note.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1352">
@@ -8040,7 +7724,7 @@
         <state relative-caret-position="260">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8050,7 +7734,7 @@
         <state relative-caret-position="-1283">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8060,7 +7744,7 @@
         <state relative-caret-position="-269">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8070,7 +7754,7 @@
         <state relative-caret-position="260">
           <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8080,22 +7764,8 @@
         <state relative-caret-position="51">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#2202#2203#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/rx/RxSubscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#2202#2203#0" expanded="false" />
+            <element signature="e#2240#2241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8105,7 +7775,7 @@
         <state relative-caret-position="390">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8115,8 +7785,8 @@
         <state relative-caret-position="312">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#252#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#222#252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -8219,16 +7889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/UserCenter/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
@@ -8237,22 +7897,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="177">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragmentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragmentStateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/Permissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+        <state relative-caret-position="182">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsResultAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-25/android.jar!/android/Manifest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="138" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/permission/PermissionsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/ICommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/rx/RxSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/retrofit/RetrofitManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/glide/GlideUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -94,30 +94,24 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="imagepipeline-base-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="core-1.2.0" level="project" />
     <orderEntry type="library" exported="" name="arouter-api-1.2.0.3" level="project" />
     <orderEntry type="library" exported="" name="design-25.2.0" level="project" />
     <orderEntry type="library" exported="" name="transition-25.2.0" level="project" />
     <orderEntry type="library" exported="" name="rxlifecycle-components-0.7.0" level="project" />
-    <orderEntry type="library" exported="" name="drawee-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-25.2.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.2.0" level="project" />
-    <orderEntry type="library" exported="" name="fbcore-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="rxlifecycle-android-0.7.0" level="project" />
-    <orderEntry type="library" exported="" name="glide-3.6.1" level="project" />
+    <orderEntry type="library" exported="" name="glide-3.7.0" level="project" />
+    <orderEntry type="library" exported="" name="glide-transformations-2.0.1" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-25.2.0" level="project" />
     <orderEntry type="library" exported="" name="support-fragment-25.2.0" level="project" />
-    <orderEntry type="library" exported="" name="fresco-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="arouter-annotation-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="animated-base-support-0.12.0" level="project" />
     <orderEntry type="library" exported="" name="rxpermissions-0.7.0" level="project" />
     <orderEntry type="library" exported="" name="butterknife-annotations-8.5.1" level="project" />
     <orderEntry type="library" exported="" name="BezierViewPager-v1.0.2" level="project" />
-    <orderEntry type="library" exported="" name="imagepipeline-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="rxandroid-1.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-25.2.0" level="project" />
-    <orderEntry type="library" exported="" name="animated-base-0.12.0" level="project" />
     <orderEntry type="library" exported="" name="support-compat-25.2.0" level="project" />
     <orderEntry type="library" exported="" name="rxbinding-0.4.0" level="project" />
     <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />
@@ -136,9 +130,7 @@
     <orderEntry type="library" exported="" name="gson-2.6.1" level="project" />
     <orderEntry type="library" exported="" name="okio-1.6.0" level="project" />
     <orderEntry type="library" exported="" name="jsr305-3.0.1" level="project" />
-    <orderEntry type="library" exported="" name="bolts-tasks-1.4.0" level="project" />
     <orderEntry type="library" exported="" name="rxlifecycle-0.7.0" level="project" />
-    <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
     <orderEntry type="library" exported="" name="rxjava-1.1.9" level="project" />
     <orderEntry type="library" exported="" name="retrofit-2.0.2" level="project" />
     <orderEntry type="library" exported="" name="adapter-rxjava-2.0.2" level="project" />

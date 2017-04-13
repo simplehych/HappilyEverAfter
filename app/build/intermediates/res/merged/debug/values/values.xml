@@ -311,57 +311,6 @@
         </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
-    <declare-styleable name="GenericDraweeHierarchy"><attr format="integer" name="fadeDuration"/><attr format="float" name="viewAspectRatio"/><attr format="reference" name="placeholderImage"/><attr name="placeholderImageScaleType">
-      <enum name="none" value="-1"/>
-      <enum name="fitXY" value="0"/>
-      <enum name="fitStart" value="1"/>
-      <enum name="fitCenter" value="2"/>
-      <enum name="fitEnd" value="3"/>
-      <enum name="center" value="4"/>
-      <enum name="centerInside" value="5"/>
-      <enum name="centerCrop" value="6"/>
-      <enum name="focusCrop" value="7"/>
-    </attr><attr format="reference" name="retryImage"/><attr name="retryImageScaleType">
-      <enum name="none" value="-1"/>
-      <enum name="fitXY" value="0"/>
-      <enum name="fitStart" value="1"/>
-      <enum name="fitCenter" value="2"/>
-      <enum name="fitEnd" value="3"/>
-      <enum name="center" value="4"/>
-      <enum name="centerInside" value="5"/>
-      <enum name="centerCrop" value="6"/>
-      <enum name="focusCrop" value="7"/>
-    </attr><attr format="reference" name="failureImage"/><attr name="failureImageScaleType">
-      <enum name="none" value="-1"/>
-      <enum name="fitXY" value="0"/>
-      <enum name="fitStart" value="1"/>
-      <enum name="fitCenter" value="2"/>
-      <enum name="fitEnd" value="3"/>
-      <enum name="center" value="4"/>
-      <enum name="centerInside" value="5"/>
-      <enum name="centerCrop" value="6"/>
-      <enum name="focusCrop" value="7"/>
-    </attr><attr format="reference" name="progressBarImage"/><attr name="progressBarImageScaleType">
-      <enum name="none" value="-1"/>
-      <enum name="fitXY" value="0"/>
-      <enum name="fitStart" value="1"/>
-      <enum name="fitCenter" value="2"/>
-      <enum name="fitEnd" value="3"/>
-      <enum name="center" value="4"/>
-      <enum name="centerInside" value="5"/>
-      <enum name="centerCrop" value="6"/>
-      <enum name="focusCrop" value="7"/>
-    </attr><attr format="integer" name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType">
-      <enum name="none" value="-1"/>
-      <enum name="fitXY" value="0"/>
-      <enum name="fitStart" value="1"/>
-      <enum name="fitCenter" value="2"/>
-      <enum name="fitEnd" value="3"/>
-      <enum name="center" value="4"/>
-      <enum name="centerInside" value="5"/>
-      <enum name="centerCrop" value="6"/>
-      <enum name="focusCrop" value="7"/>
-    </attr><attr format="reference" name="backgroundImage"/><attr format="reference" name="overlayImage"/><attr format="reference" name="pressedStateOverlayImage"/><attr format="boolean" name="roundAsCircle"/><attr format="dimension" name="roundedCornerRadius"/><attr format="boolean" name="roundTopLeft"/><attr format="boolean" name="roundTopRight"/><attr format="boolean" name="roundBottomRight"/><attr format="boolean" name="roundBottomLeft"/><attr format="color" name="roundWithOverlayColor"/><attr format="dimension" name="roundingBorderWidth"/><attr format="color" name="roundingBorderColor"/><attr format="dimension" name="roundingBorderPadding"/></declare-styleable>
     <declare-styleable name="ImgTextView"><attr format="reference" name="drawable_src"/><attr format="dimension" name="drawable_height"/><attr format="dimension" name="drawable_width"/><attr name="drawable_location">
             <enum name="left" value="1"/>
             <enum name="top" value="2"/>
@@ -398,7 +347,6 @@
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
-    <declare-styleable name="SimpleDraweeView"><attr format="string" name="actualImageUri"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">

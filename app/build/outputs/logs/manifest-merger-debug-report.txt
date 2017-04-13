@@ -98,14 +98,8 @@ MERGED from [com.trello:rxlifecycle-android:0.7.0] C:\Users\liumoyi\.android\bui
 MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\liumoyi\.android\build-cache\8b11db52fd3e956d73e8f1be925ceae407ffbdf6\output\AndroidManifest.xml:6:5-44
 MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\liumoyi\.android\build-cache\1bd8336d2709fad64878bb34593c3d1202c21940\output\AndroidManifest.xml:19:5-43
 MERGED from [org.litepal.android:core:1.2.0] C:\Users\liumoyi\.android\build-cache\b66eec645e542ceb71bf9b59b781681b9b664db1\output\AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\liumoyi\.android\build-cache\703c92fcf328dc76c5098a6c15481794d2beab21\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:multidex:1.0.1] C:\Users\liumoyi\.android\build-cache\7256bdd3c5605e2238b876fd6b0811389b135476\output\AndroidManifest.xml:18:5-42
-MERGED from [com.facebook.fresco:fresco:1.0.0] C:\Users\liumoyi\.android\build-cache\84c39a6eed21fc82fa5ab12574e020ea32a03b92\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.0.0] C:\Users\liumoyi\.android\build-cache\d98708dc3a878a4737c39c3e48315ff382ea73e6\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:animated-base-support:0.12.0] C:\Users\liumoyi\.android\build-cache\f7e836d3d725791aef3fa124f2115840619138da\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:animated-base:0.12.0] C:\Users\liumoyi\.android\build-cache\495b0a792afa6af997176983dd8c4b3ac0a22c64\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.0.0] C:\Users\liumoyi\.android\build-cache\cdf8450288447a8efe3bb094f1e71ea987b2f357\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.0.0] C:\Users\liumoyi\.android\build-cache\cd163716e6c8af2b196d7addf01463f9a7cc7440\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.0.0] C:\Users\liumoyi\.android\build-cache\cd204ec4c832bb17aa7324a88b141634478c9e37\output\AndroidManifest.xml:5:5-7:41
 MERGED from [HappilyEverAfter.Modules:UserCenter:unspecified] D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\liumoyi\.android\build-cache\1ee8afa07185e01e6a25f01c535d0c98c7a39dda\output\AndroidManifest.xml:5:5-43
 MERGED from [com.alibaba:arouter-api:1.2.0.3] C:\Users\liumoyi\.android\build-cache\3a0e5e65a21b46d67e3e3cda5b2f640532193205\output\AndroidManifest.xml:6:5-8:41

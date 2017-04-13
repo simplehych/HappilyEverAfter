@@ -4,7 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import com.simple.commonlibrary.manager.ActivityManager;
 import com.simple.commonlibrary.utils.TUtil;
@@ -16,32 +19,30 @@ import butterknife.Unbinder;
  * Created by hych on 2017/4/12.
  */
 
-public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel> extends AppCompatActivity {
+public abstract class BaseFragment<T extends BasePresenter, E extends BaseModel> extends Fragment {
 
+    protected View mRootView;
     public T mPresenter;
     public E mModel;
     public Context mContext;
     private Unbinder unbinder;
 
-    /**
-     * 注意关注底层方法内实现的顺序
-     *
-     * @param savedInstanceState
-     */
+    @Nullable
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        beforeSetContentView();
-        setContentView(getLayoutId());
-        unbinder = ButterKnife.bind(this);
-        mContext = this;
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        if (mRootView == null) {
+            mRootView = inflater.inflate(getLayoutResId(), container, false);
+        }
+        unbinder = ButterKnife.bind(this, mRootView);
+        //通过泛型传入的T获得Presenter
         mPresenter = TUtil.getT(this, 0);
+        //通过泛型传入的E获得Model
         mModel = TUtil.getT(this, 1);
         if (mPresenter != null) {
-            mPresenter.mContext = this;
+            mPresenter.mContext = this.getActivity();
         }
-        this.initPresenter();
         this.initView();
+        return mRootView;
     }
 
     /**
@@ -64,7 +65,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
     public void startActivityForResult(Class<?> cls, Bundle bundle,
                                        int requestCode) {
         Intent intent = new Intent();
-        intent.setClass(this, cls);
+        intent.setClass(getActivity(), cls);
         if (bundle != null) {
             intent.putExtras(bundle);
         }
@@ -76,36 +77,27 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
      **/
     public void startActivity(Class<?> cls, Bundle bundle) {
         Intent intent = new Intent();
-        intent.setClass(this, cls);
+        intent.setClass(getActivity(), cls);
         if (bundle != null) {
             intent.putExtras(bundle);
         }
         startActivity(intent);
     }
 
-    /**
-     * 添加布局之前将当前的Activity放到栈中进行统一的管理
-     */
-    private void beforeSetContentView() {
-        ActivityManager.getInstance().addActivity(this);
-    }
-
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
+    public void onDestroyView() {
+        super.onDestroyView();
         if (mPresenter != null)
             mPresenter.onDestroy();
         unbinder.unbind();
-        ActivityManager.getInstance().finishActivity(this);
     }
-
 
     /**
      * 获取布局文件ID
      *
      * @return
      */
-    public abstract int getLayoutId();
+    public abstract int getLayoutResId();
 
 //    /**
 //     * 使用Mvp模式下初始化Presenter，即 mPresenter.setVM(this, mModel);
