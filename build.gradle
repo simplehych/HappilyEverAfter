@@ -39,26 +39,37 @@ task clean(type: Delete) {
  */
 ext {
 
-    // Url
+    // Url -start
     serverUrl = "http://serverUrl"
     userCenterUrl = "http://userCenterUrl"
+    // --end
 
-    // Sdk and version
+    // Sdk and version -start
     compileSdkVersion = 25
     buildToolsVersion = "25.0.2"
     minSdkVersion = 16
     targetSdkVersion = 25
     versionCode = 1 //time:20170411
     versionName = "1.0"
+    // --end
 
     // App dependencies version
     supportLibraryVersion = "25.2.0"
 
+    //Arouter -start
     ARouterApi = "1.2.0.3"
     ARouterCompiler = "1.1.1.1"
+    // --end
 
+    //fragmentation --start
+    fragmentation = "0.10.3"
+    fragmentationSwipeback = "0.7.9"
+    // --end
+
+    //ButterKnife -start
     butterKnifeVersion = "8.5.1"
-    butterKnifeAnnotationVersion = "8.5.1"
+    butterKnifeCompiler = "8.5.1"
+    // --end
 
     /**
      * 右侧的值也可在根项目的gradle.properties中定义

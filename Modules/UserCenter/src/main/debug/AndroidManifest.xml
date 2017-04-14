@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.simple.usercenter">
 
+    <!-- 在Module模式下独立的开发，作为一个App使用-->
     <application
         android:name="debug.UserCenterApplication"
         android:allowBackup="true"

@@ -14,7 +14,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme.NoActionBar" >
         <activity android:name="com.simple.happilyeverafter.arouter.SchameFilterActivity" >
 
             <!-- Schame -->
@@ -44,26 +44,18 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-        <activity android:name="com.simple.happilyeverafter.test.XXX.main.MainActivity" >
+        <activity android:name="com.simple.happilyeverafter.EntryActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.simple.happilyeverafter.test.XXX.activity.SnackBarActivity" />
+        <activity android:name="com.simple.usercenter.MainActivity" />
         <activity
             android:name="com.tbruyelle.rxpermissions.ShadowActivity"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name="com.simple.usercenter.MainActivity" />
-        <activity android:name="qdx.bezierviewpager_compile.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

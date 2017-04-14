@@ -6,15 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.simple.happilyeverafter.R;
 import com.simple.commonlibrary.test.base.BaseFragment;
+import com.simple.happilyeverafter.R;
 
 import java.util.ArrayList;
-
-import qdx.bezierviewpager_compile.BezierRoundView;
-import qdx.bezierviewpager_compile.vPage.BezierViewPager;
-import qdx.bezierviewpager_compile.vPage.CardPagerAdapter;
-
 /**
  * Created by Anthony on 2017/3/17.
  */
@@ -33,13 +28,16 @@ public class FragmentFour extends BaseFragment {
         imgList.add("");
         imgList.add("");
 
-        CardPagerAdapter cardAdapter = new CardPagerAdapter(getContext());
-        cardAdapter.addImgUrlList(imgList);  //放置图片url的list
-
-        BezierViewPager viewPager = (BezierViewPager) view.findViewById(R.id.view_page);
-        viewPager.setAdapter(cardAdapter);
-
-        BezierRoundView bezRound = (BezierRoundView) view.findViewById(R.id.bezRound);
-        bezRound.attach2ViewPage(viewPager);
+//
+//        //    compile 'com.github.qdxxxx:BezierViewPager:v1.0.2'
+//
+//        CardPagerAdapter cardAdapter = new CardPagerAdapter(getContext());
+//        cardAdapter.addImgUrlList(imgList);  //放置图片url的list
+//
+//        BezierViewPager viewPager = (BezierViewPager) view.findViewById(R.id.view_page);
+//        viewPager.setAdapter(cardAdapter);
+//
+//        BezierRoundView bezRound = (BezierRoundView) view.findViewById(R.id.bezRound);
+//        bezRound.attach2ViewPage(viewPager);
     }
 }

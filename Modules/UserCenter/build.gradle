@@ -23,6 +23,7 @@ android {
             }
         }
     }
+
     buildTypes {
         //library下的gradle没有debug模式，所以只可以在Release下进行配置，但是组件化开发时切换为Module的时候还是需要进行同样的配置
         debug {
@@ -34,6 +35,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    
     sourceSets {
         main {
             if (isModule.toBoolean()) {
@@ -57,13 +59,12 @@ dependencies {
 
     // butterknife --start
     compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
-    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeAnnotationVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeCompiler"
     // --end
 
-    //ARouter --start
-    compile "com.alibaba:arouter-api:$rootProject.ARouterApi"
-    annotationProcessor "com.alibaba:arouter-compiler:$rootProject.ARouterCompiler"
-    //--end
+    //CommonLibrary
+    compile project(':Libraries:CommonLibrary')
+
 }
 
 def getUserCenterUrl() {

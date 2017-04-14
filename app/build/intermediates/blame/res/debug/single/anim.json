@@ -1,5 +1,57 @@
 [
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_pop_exit.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\h_fragment_pop_exit.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_enter.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\v_fragment_enter.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_pop_enter.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\v_fragment_pop_enter.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_exit_no_anim.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\pop_exit_no_anim.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\dd9536ade864e294788a55c27fcb2b7fadbc3eed\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_exit.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\v_fragment_exit.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_enter.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\h_fragment_enter.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\v_fragment_pop_exit.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\v_fragment_pop_exit.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_exit.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\h_fragment_exit.xml"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_fade_out.xml"
     },
@@ -16,6 +68,10 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\h_fragment_pop_enter.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\h_fragment_pop_enter.xml"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_fade_in.xml"
     },
@@ -28,20 +84,12 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\dd9536ade864e294788a55c27fcb2b7fadbc3eed\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\no_anim.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\no_anim.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\dd9536ade864e294788a55c27fcb2b7fadbc3eed\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
@@ -50,14 +98,6 @@
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\dd9536ade864e294788a55c27fcb2b7fadbc3eed\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",

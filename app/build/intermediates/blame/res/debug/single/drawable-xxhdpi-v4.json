@@ -68,6 +68,10 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fragmentation_ic_stack.png",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\drawable-xxhdpi-v4\\fragmentation_ic_stack.png"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -144,6 +148,10 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fragmentation_ic_expandable.png",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\drawable-xxhdpi-v4\\fragmentation_ic_expandable.png"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -186,6 +194,10 @@
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\fragmentation_ic_right.png",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\drawable-xxhdpi-v4\\fragmentation_ic_right.png"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\design_ic_visibility.png",

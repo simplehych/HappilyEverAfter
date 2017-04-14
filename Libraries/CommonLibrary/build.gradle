@@ -10,6 +10,12 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode
         versionName rootProject.ext.versionName
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ moduleName : project.getName() ]
+            }
+        }
     }
     buildTypes {//Library没有debug和release区分，运行之后都按Release
         debug {
@@ -29,11 +35,22 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+
+    //ARouter --start
+    compile "com.alibaba:arouter-api:$rootProject.ARouterApi"
+    annotationProcessor "com.alibaba:arouter-compiler:$rootProject.ARouterCompiler"
+    //--end
+
+    //fragmentation --start
+    compile "me.yokeyword:fragmentation:$rootProject.fragmentation"
+    // 如果想使用SwipeBack 滑动边缘退出Fragment/Activity功能，请再添加下面的库
+    compile "me.yokeyword:fragmentation-swipeback:$rootProject.fragmentationSwipeback"
+    //--end
 
     // butterknife --start
     compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
-    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeAnnotationVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeCompiler"
     // --end
 
     // rxjava --start

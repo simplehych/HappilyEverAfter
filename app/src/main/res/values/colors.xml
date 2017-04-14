@@ -15,4 +15,7 @@
     <color name="nav_checked_color">#000000</color>
     <color name="nav_uncheck_color">#000000</color>
 
+
+    <color name="home_bottom_bar_select">#FF4081</color>
+    <color name="home_bottom_bar_unselect">#c9c9c9</color>
 </resources>

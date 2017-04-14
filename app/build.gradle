@@ -55,13 +55,8 @@ dependencies {
 
     // butterknife --start
     compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
-    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeAnnotationVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeCompiler"
     // --end
-
-    //ARouter --start
-    compile "com.alibaba:arouter-api:$rootProject.ARouterApi"
-    annotationProcessor "com.alibaba:arouter-compiler:$rootProject.ARouterCompiler"
-    //--end
 
     //CommonLibrary
     compile project(':Libraries:CommonLibrary')
@@ -71,8 +66,6 @@ dependencies {
         //用户中心模块
         compile project(':Modules:UserCenter')
     }
-
-    compile 'com.github.qdxxxx:BezierViewPager:v1.0.2'
 }
 
 def loadServerUrl() {

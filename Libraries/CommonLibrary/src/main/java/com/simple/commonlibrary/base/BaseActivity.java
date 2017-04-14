@@ -16,7 +16,7 @@ import butterknife.Unbinder;
  * Created by hych on 2017/4/12.
  */
 
-public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel> extends AppCompatActivity {
+public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel> extends BaseSupportActivity {
 
     public T mPresenter;
     public E mModel;

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.simple.usercenter">
 
+    <!-- 在非Module模式下整体联调时，合并到主App中-->
+
     <application android:supportsRtl="true">
 
         <activity android:name=".MainActivity"></activity>
