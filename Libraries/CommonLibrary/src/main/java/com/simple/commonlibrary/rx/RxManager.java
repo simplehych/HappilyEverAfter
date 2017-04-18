@@ -17,11 +17,11 @@ import rx.subscriptions.CompositeSubscription;
 
 public class RxManager {
 
-    public RxBus mRxBus = RxBus.getsInstance();
+    public static RxBus mRxBus = RxBus.getsInstance();
     //管理rxbus订阅
-    private Map<String, Observable<?>> mObservables = new HashMap<>();
+    private static Map<String, Observable<?>> mObservables = new HashMap<>();
     //管理Observables 和 Subscribers订阅
-    private CompositeSubscription mCompositeSubscription = new CompositeSubscription();
+    private static CompositeSubscription mCompositeSubscription = new CompositeSubscription();
 
     /**
      * RxBus注入监听
@@ -29,7 +29,7 @@ public class RxManager {
      * @param eventName
      * @param action1
      */
-    public <T> void on(String eventName, Action1<T> action1) {
+    public static  <T> void on(String eventName, Action1<T> action1) {
         Observable<T> mObservable = mRxBus.register(eventName);
         mObservables.put(eventName, mObservable);
         //订阅管理
@@ -69,7 +69,7 @@ public class RxManager {
      * @param tag
      * @param content
      */
-    public void post(Object tag, Object content) {
+    public static void post(Object tag, Object content) {
         mRxBus.post(tag, content);
     }
 }

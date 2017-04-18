@@ -4,13 +4,13 @@
     android:layout_height="match_parent">
 
     <FrameLayout
-        android:id="@+id/container_fl"
+        android:id="@+id/container_main_fl"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"></FrameLayout>
 
     <com.simple.happilyeverafter.ui.bottombar.BottomBar
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/bottombar_height"
-        android:layout_alignParentBottom="true"/>
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"></com.simple.happilyeverafter.ui.bottombar.BottomBar>
 </RelativeLayout>

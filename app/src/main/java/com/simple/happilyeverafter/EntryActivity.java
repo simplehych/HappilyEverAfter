@@ -2,12 +2,9 @@ package com.simple.happilyeverafter;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.FrameLayout;
 
-import com.simple.commonlibrary.base.BaseSupportActivity;
-import com.simple.commonlibrary.base.BaseSupportFragment;
-import com.simple.commonlibrary.base.BaseSwipeBackActivity;
+import com.simple.commonlibrary.base.BaseActivity;
+import com.simple.commonlibrary.base.fragmentation.BaseSupportActivity;
 import com.simple.happilyeverafter.ui.SplashFragment;
 
 import me.yokeyword.fragmentation.SupportFragment;
@@ -19,13 +16,11 @@ import me.yokeyword.fragmentation.helper.FragmentLifecycleCallbacks;
  * Created by hych on 2017/4/14 16:25.
  */
 
-public class EntryActivity extends BaseSupportActivity implements BaseSupportFragment.OnBackToFirstListener {
+public class EntryActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_entry);
-
         // 可以监听该Activity下的所有Fragment的18个 生命周期方法
         registerFragmentLifecycleCallbacks(new FragmentLifecycleCallbacks() {
 
@@ -36,8 +31,18 @@ public class EntryActivity extends BaseSupportActivity implements BaseSupportFra
         });
 
         if (savedInstanceState == null) {
-            loadRootFragment(R.id.entry, SplashFragment.newInstance());
+            loadRootFragment(R.id.container_entry_fl, SplashFragment.newInstance());
         }
+    }
+
+    @Override
+    public int getLayoutId() {
+        return R.layout.activity_entry;
+    }
+
+    @Override
+    public void initView() {
+
     }
 
     @Override
@@ -47,11 +52,7 @@ public class EntryActivity extends BaseSupportActivity implements BaseSupportFra
         // 设置横向(和安卓4.x动画相同)
         return new DefaultHorizontalAnimator();
         // 设置自定义动画
-//        return new FragmentAnimator(enter,exit,popEnter,popExit);
+//        return new FragmentAnimator(common_enter,exit,popEnter,popExit);
     }
 
-    @Override
-    public void onBackToFirstFragment() {
-        finish();
-    }
 }

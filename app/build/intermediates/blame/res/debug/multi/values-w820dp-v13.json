@@ -11,13 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "D:\\MyWorkspace\\HappilyEverAfter\\Modules\\UserCenter\\build\\intermediates\\bundles\\default\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 295,
+                        "startOffset": 55,
                         "endColumn": 57,
-                        "endOffset": 348
+                        "endOffset": 108
                     }
                 }
             }

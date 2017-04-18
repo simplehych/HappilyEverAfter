@@ -1,13 +1,8 @@
 package com.simple.happilyeverafter.ui;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
-import com.simple.commonlibrary.base.BaseFragment;
+import com.simple.commonlibrary.base.BaseMainFragment;
 import com.simple.happilyeverafter.R;
 
 import java.util.concurrent.TimeUnit;
@@ -15,14 +10,13 @@ import java.util.concurrent.TimeUnit;
 import rx.Observable;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action0;
 import rx.functions.Func1;
 
 /**
  * Created by hych on 2017/4/14 16:34.
  */
 
-public class SplashFragment extends BaseFragment {
+public class SplashFragment extends BaseMainFragment {
 
     public static SplashFragment newInstance() {
         Bundle args = new Bundle();
@@ -52,7 +46,8 @@ public class SplashFragment extends BaseFragment {
                 .subscribe(new Observer<Long>() {
                     @Override
                     public void onCompleted() {
-                        loadRootFragment(R.id.container_splash_fl,MainFragment.newInstance());
+                        replaceFragment(MainFragment.newInstance(),false);
+                        pop();
                     }
 
                     @Override

@@ -17,6 +17,6 @@
     <item
         android:id="@+id/menu_github"
         android:title="@string/github"
-        android:icon="@drawable/ic_link_white_24dp"
+        android:icon="@mipmap/ic_launcher"
         app:showAsAction="ifRoom" />
 </menu>

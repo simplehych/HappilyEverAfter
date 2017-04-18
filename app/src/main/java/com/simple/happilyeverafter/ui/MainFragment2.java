@@ -1,0 +1,44 @@
+package com.simple.happilyeverafter.ui;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.simple.commonlibrary.base.BaseFragment;
+import com.simple.commonlibrary.base.BaseMainFragment;
+import com.simple.happilyeverafter.R;
+
+/**
+ * Created by hych on 2017/4/14 17:27.
+ */
+
+public class MainFragment2 extends BaseMainFragment {
+
+    public static MainFragment2 newInstance() {
+        Bundle args = new Bundle();
+        MainFragment2 fragment = new MainFragment2();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = super.onCreateView(inflater,container,savedInstanceState);
+
+        return view;
+    }
+
+    @Override
+    public int getLayoutResId() {
+        return R.layout.fragment_main_2;
+    }
+
+    @Override
+    public void initView() {
+
+    }
+
+}

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="common_color_primary">#4da1e1</color>
+    <color name="common_color_primary_dark">#038cf5</color>
+    <color name="common_color_accent">#FF4081</color>
 </resources>

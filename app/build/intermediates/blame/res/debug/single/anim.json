@@ -88,12 +88,20 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\7e4ac4ef851412bbec606b0d9f1d777a14b9bdb4\\output\\res\\anim\\no_anim.xml"
     },
     {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\common_enter.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\Libraries\\CommonLibrary\\build\\intermediates\\bundles\\default\\res\\anim\\common_enter.xml"
+    },
+    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\dd9536ade864e294788a55c27fcb2b7fadbc3eed\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\dd9536ade864e294788a55c27fcb2b7fadbc3eed\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\comoon_out.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\Libraries\\CommonLibrary\\build\\intermediates\\bundles\\default\\res\\anim\\comoon_out.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",

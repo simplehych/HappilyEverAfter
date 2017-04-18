@@ -31,11 +31,11 @@ public class ImgTextView extends TextView {
     public ImgTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ImgTextView);
-        mWidth = a.getDimensionPixelSize(R.styleable.ImgTextView_drawable_width, 0);
-        mHeight = a.getDimensionPixelSize(R.styleable.ImgTextView_drawable_height, 0);
-        mDrawable = a.getDrawable(R.styleable.ImgTextView_drawable_src);
-        mLocation = a.getInt(R.styleable.ImgTextView_drawable_location, LEFT);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CommonImgTextView);
+        mWidth = a.getDimensionPixelSize(R.styleable.CommonImgTextView_drawable_width, 0);
+        mHeight = a.getDimensionPixelSize(R.styleable.CommonImgTextView_drawable_height, 0);
+        mDrawable = a.getDrawable(R.styleable.CommonImgTextView_drawable_src);
+        mLocation = a.getInt(R.styleable.CommonImgTextView_drawable_location, LEFT);
         a.recycle();
         //绘制Drawable宽高,位置
         drawDrawable();

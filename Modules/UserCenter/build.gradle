@@ -57,6 +57,11 @@ dependencies {
 
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
 
+    //ARouter --start
+    compile "com.alibaba:arouter-api:$rootProject.ARouterApi"
+    annotationProcessor "com.alibaba:arouter-compiler:$rootProject.ARouterCompiler"
+    //--end
+
     // butterknife --start
     compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeCompiler"

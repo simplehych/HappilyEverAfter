@@ -6,7 +6,7 @@
 
     <application android:supportsRtl="true">
 
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="debug.TestEntryActivity"></activity>
     </application>
 
 </manifest>

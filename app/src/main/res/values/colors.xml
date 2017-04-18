@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4da1e1</color>
-    <color name="colorPrimaryDark">#2e94c2</color>
-    <color name="colorAccent">#FF4081</color>
     <color name="red">#FF0000</color>
 
     <color name="bg_home_bottom_bar">#4da1e1</color>

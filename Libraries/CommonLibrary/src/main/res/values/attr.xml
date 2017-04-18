@@ -2,7 +2,7 @@
 <resources>
 
     <!-- ImgTextView -->
-    <declare-styleable name="ImgTextView">
+    <declare-styleable name="CommonImgTextView">
         <attr name="drawable_src" format="reference" />
         <attr name="drawable_height" format="dimension" />
         <attr name="drawable_width" format="dimension" />

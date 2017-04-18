@@ -30,15 +30,15 @@ public class GlideUtils {
     private static int getDefaultPic(int imgNumber) {
         switch (imgNumber) {
             case 1:
-                return R.mipmap.img_two_bi_one;
+                return R.mipmap.common_glide_img_two_bi_one;
             case 2:
-                return R.mipmap.img_four_bi_three;
+                return R.mipmap.common_glide_img_four_bi_three;
             case 3:
-                return R.mipmap.img_one_bi_one;
+                return R.mipmap.common_glide_img_one_bi_one;
             case 4:
-                return R.mipmap.img_default_movie;
+                return R.mipmap.common_glide_img_default_movie;
         }
-        return R.mipmap.img_four_bi_three;
+        return R.mipmap.common_glide_img_four_bi_three;
     }
 
     /**

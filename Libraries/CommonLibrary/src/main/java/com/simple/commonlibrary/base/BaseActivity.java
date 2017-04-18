@@ -4,8 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 
+import com.simple.commonlibrary.base.fragmentation.BaseSupportActivity;
+import com.simple.commonlibrary.base.mvp.BaseModel;
+import com.simple.commonlibrary.base.mvp.BasePresenter;
 import com.simple.commonlibrary.manager.ActivityManager;
 import com.simple.commonlibrary.utils.TUtil;
 

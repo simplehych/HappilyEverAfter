@@ -4,12 +4,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 
-import com.simple.commonlibrary.manager.ActivityManager;
+import com.simple.commonlibrary.R;
+import com.simple.commonlibrary.base.mvp.BaseModel;
+import com.simple.commonlibrary.base.mvp.BasePresenter;
 import com.simple.commonlibrary.utils.TUtil;
 
 import butterknife.ButterKnife;
@@ -19,7 +21,7 @@ import butterknife.Unbinder;
  * Created by hych on 2017/4/12.
  */
 
-public abstract class BaseFragment<T extends BasePresenter, E extends BaseModel> extends BaseSupportFragment {
+public abstract class BaseFragment<T extends BasePresenter, E extends BaseModel> extends BaseToolbarFragment {
 
     protected View mRootView;
     public T mPresenter;
@@ -30,9 +32,14 @@ public abstract class BaseFragment<T extends BasePresenter, E extends BaseModel>
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        if (mRootView == null) {
-            mRootView = inflater.inflate(getLayoutResId(), container, false);
+        mRootView = super.onCreateView(inflater, container, savedInstanceState);
+
+        FrameLayout containerBase = (FrameLayout) mRootView.findViewById(R.id.common_container_ll);
+        if (getLayoutResId() != 0) {
+            FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+            containerBase.addView(LayoutInflater.from(_mActivity).inflate(getLayoutResId(), null), params);
         }
+
         unbinder = ButterKnife.bind(this, mRootView);
         //通过泛型传入的T获得Presenter
         mPresenter = TUtil.getT(this, 0);

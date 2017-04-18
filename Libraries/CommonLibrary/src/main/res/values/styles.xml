@@ -1,5 +1,32 @@
 <resources>
 
+    <style name="CommonAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/common_color_primary</item>
+        <item name="colorPrimaryDark">@color/common_color_primary_dark</item>
+        <item name="colorAccent">@color/common_color_accent</item>
+    </style>
 
+    <!-- toolbar标题样式 -->
+    <style name="CommonToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <!-- toolbar菜单样式 -->
+    <style name="CommonToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextAppearance">@style/CommonToolbarMenuTextSize</item>
+        <item name="selectableItemBackground">@drawable/common_toolbar_item_selector</item>
+    </style>
+
+    <!-- toolbar菜单文字尺寸 -->
+    <style name="CommonToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- toolbar弹出菜单样式 -->
+    <style name="CommonToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">#212121</item>
+    </style>
 
 </resources>

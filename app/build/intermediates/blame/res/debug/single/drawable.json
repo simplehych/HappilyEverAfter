@@ -68,10 +68,6 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\drawable\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
@@ -154,6 +150,10 @@
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_toolbar_item_selector.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\Libraries\\CommonLibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\common_toolbar_item_selector.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",

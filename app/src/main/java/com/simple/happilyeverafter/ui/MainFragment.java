@@ -2,29 +2,25 @@ package com.simple.happilyeverafter.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.simple.commonlibrary.base.BaseFragment;
-import com.simple.commonlibrary.base.BaseSupportFragment;
+import com.simple.commonlibrary.base.BaseMainFragment;
+import com.simple.commonlibrary.event.BottomBarEvent;
+import com.simple.commonlibrary.rx.RxManager;
 import com.simple.happilyeverafter.R;
 import com.simple.happilyeverafter.ui.bottombar.BottomBar;
 import com.simple.happilyeverafter.ui.bottombar.BottomBarTab;
-import com.simple.happilyeverafter.ui.mainfragment1.MainFragment1;
-import com.simple.happilyeverafter.ui.mainfragment2.MainFragment2;
-import com.simple.happilyeverafter.ui.mainfragment3.MainFragment3;
-import com.simple.happilyeverafter.ui.mainfragment4.MainFragment4;
 
 import me.yokeyword.fragmentation.SupportFragment;
-import me.yokeyword.fragmentation.helper.FragmentLifecycleCallbacks;
+import rx.functions.Action1;
 
 /**
  * Created by hych on 2017/4/14 17:15.
  */
 
-public class MainFragment extends BaseFragment {
+public class MainFragment extends BaseMainFragment {
     public static final int FIRST = 0;
     public static final int SECOND = 1;
     public static final int THIRD = 2;
@@ -50,7 +46,7 @@ public class MainFragment extends BaseFragment {
             mFragments[THIRD] = MainFragment3.newInstance();
             mFragments[FOURTH] = MainFragment4.newInstance();
 
-            loadMultipleRootFragment(R.id.container_fl, FIRST,
+            loadMultipleRootFragment(R.id.container_main_fl, FIRST,
                     mFragments[FIRST],
                     mFragments[SECOND],
                     mFragments[THIRD],
@@ -66,16 +62,28 @@ public class MainFragment extends BaseFragment {
 
         initBottomBar(view);
 
+        RxManager.on(BottomBarEvent.class.getName(), new Action1<BottomBarEvent>() {
+            @Override
+            public void call(BottomBarEvent bottomBarEvent) {
+                boolean showBottomBar = bottomBarEvent.isShowBottomBar();
+                if (showBottomBar) {
+                    mBottomBar.show();
+                } else {
+                    mBottomBar.hide();
+                }
+            }
+        });
+
         return view;
     }
 
     private void initBottomBar(View view) {
         mBottomBar = (BottomBar) view.findViewById(R.id.bottomBar);
 
-        mBottomBar.addItem(new BottomBarTab(_mActivity, R.drawable.ic_home_white_24dp))
-                .addItem(new BottomBarTab(_mActivity, R.drawable.ic_home_white_24dp))
-                .addItem(new BottomBarTab(_mActivity, R.drawable.ic_home_white_24dp))
-                .addItem(new BottomBarTab(_mActivity, R.drawable.ic_home_white_24dp));
+        mBottomBar.addItem(new BottomBarTab(_mActivity, R.mipmap.ic_launcher))
+                .addItem(new BottomBarTab(_mActivity, R.mipmap.ic_launcher))
+                .addItem(new BottomBarTab(_mActivity, R.mipmap.ic_launcher))
+                .addItem(new BottomBarTab(_mActivity, R.mipmap.ic_launcher));
 
         mBottomBar.setOnTabSelectedListener(new BottomBar.OnTabSelectedListener() {
             @Override
@@ -118,7 +126,6 @@ public class MainFragment extends BaseFragment {
         });
     }
 
-
     @Override
     public int getLayoutResId() {
         return R.layout.fragment_main;
@@ -128,4 +135,5 @@ public class MainFragment extends BaseFragment {
     public void initView() {
 
     }
+
 }
