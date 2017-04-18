@@ -1065,9 +1065,10 @@ int layout support_simple_spinner_dropdown_item 0x7f040049
 int layout user_activity_test 0x7f04004a
 int layout user_fragment_login 0x7f04004b
 int layout user_fragment_mine 0x7f04004c
-int menu common_toolbar_menu 0x7f0f0000
-int menu home_action_menu 0x7f0f0001
-int menu home_navigation_menu 0x7f0f0002
+int menu common_toolbar_menu_action 0x7f0f0000
+int menu common_toolbar_menu_next 0x7f0f0001
+int menu home_action_menu 0x7f0f0002
+int menu home_navigation_menu 0x7f0f0003
 int mipmap common_glide_img_default_movie 0x7f030000
 int mipmap common_glide_img_four_bi_three 0x7f030001
 int mipmap common_glide_img_one_bi_one 0x7f030002

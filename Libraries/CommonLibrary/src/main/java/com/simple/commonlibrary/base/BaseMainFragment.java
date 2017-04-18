@@ -23,7 +23,7 @@ public abstract class BaseMainFragment<T extends BasePresenter, E extends BaseMo
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        setShowToolbar(false);
+        setShowToolbar(showToolbar());
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 
@@ -38,4 +38,6 @@ public abstract class BaseMainFragment<T extends BasePresenter, E extends BaseMo
         }
         return true;
     }
+
+    protected abstract boolean showToolbar();
 }

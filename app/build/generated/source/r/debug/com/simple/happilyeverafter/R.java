@@ -3245,9 +3245,10 @@ containing a value of this type.
         public static final int user_fragment_mine=0x7f04004c;
     }
     public static final class menu {
-        public static final int common_toolbar_menu=0x7f0f0000;
-        public static final int home_action_menu=0x7f0f0001;
-        public static final int home_navigation_menu=0x7f0f0002;
+        public static final int common_toolbar_menu_action=0x7f0f0000;
+        public static final int common_toolbar_menu_next=0x7f0f0001;
+        public static final int home_action_menu=0x7f0f0002;
+        public static final int home_navigation_menu=0x7f0f0003;
     }
     public static final class mipmap {
         public static final int common_glide_img_default_movie=0x7f030000;

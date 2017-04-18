@@ -29,12 +29,15 @@ public abstract class BaseToolbarFragment extends BaseSupportFragment {
 
         mToolbar = (Toolbar) view.findViewById(R.id.common_toolbar);
         if (showToolbar) {
-            initToolbarNav(mToolbar, "设置", true, true, "下一步");
-            mToolbar.setVisibility(View.VISIBLE);
+            setToolbar("登录", true, false, null);
         } else {
             mToolbar.setVisibility(View.GONE);
         }
         return view;
+    }
+
+    protected void setToolbar(String title, boolean isBack, final boolean showMenu, final String next) {
+        initToolbarNav(mToolbar, title, isBack, showMenu, next);
     }
 
     /**
@@ -45,11 +48,12 @@ public abstract class BaseToolbarFragment extends BaseSupportFragment {
      * @param showMenu 显示功能菜单栏
      * @param next     显示下一步按钮
      */
-    protected void initToolbarNav(Toolbar toolbar, String title, boolean isBack, final boolean showMenu, final String next) {
+    private void initToolbarNav(Toolbar toolbar, String title, boolean isBack, final boolean showMenu, final String next) {
+        mToolbar.setVisibility(View.VISIBLE);
+
         if (toolbar != null) {
 
             toolbar.setTitleTextColor(Color.WHITE);
-            toolbar.inflateMenu(com.simple.commonlibrary.R.menu.common_toolbar_menu);
 
             if (title != null) {//显示标题
                 toolbar.setTitle(title);
@@ -63,19 +67,20 @@ public abstract class BaseToolbarFragment extends BaseSupportFragment {
                         _mActivity.onBackPressed();
                     }
                 });
-            }
-            if (showMenu) { //显示功能菜单栏
-                toolbar.getMenu().getItem(0).setVisible(true);
-                toolbar.getMenu().getItem(1).setVisible(true);
             } else {
-                toolbar.getMenu().getItem(0).setVisible(false);
-                toolbar.getMenu().getItem(1).setVisible(false);
+                toolbar.setNavigationIcon(null);
+            }
+
+            if (showMenu) { //显示功能菜单栏
+                toolbar.inflateMenu(R.menu.common_toolbar_menu_action);
+            } else {
+                toolbar.getMenu().close();
             }
 
             if (next != null) {//显示下一步按钮
-                toolbar.getMenu().getItem(2).setVisible(true);
+                toolbar.inflateMenu(R.menu.common_toolbar_menu_next);
             } else {
-                toolbar.getMenu().getItem(2).setVisible(false);
+                toolbar.getMenu().close();
             }
 
             toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {

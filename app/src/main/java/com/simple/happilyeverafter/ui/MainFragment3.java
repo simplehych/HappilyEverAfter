@@ -32,6 +32,11 @@ public class MainFragment3 extends BaseMainFragment {
     }
 
     @Override
+    protected boolean showToolbar() {
+        return false;
+    }
+
+    @Override
     public int getLayoutResId() {
         return R.layout.fragment_main_3;
     }

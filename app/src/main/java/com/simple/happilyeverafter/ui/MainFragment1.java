@@ -31,13 +31,18 @@ public class MainFragment1 extends BaseMainFragment {
     }
 
     @Override
+    protected boolean showToolbar() {
+        return true;
+    }
+
+    @Override
     public int getLayoutResId() {
         return R.layout.fragment_main_1;
     }
 
     @Override
     public void initView() {
-
+        setToolbar("首页",false,false,null);
     }
 
 }

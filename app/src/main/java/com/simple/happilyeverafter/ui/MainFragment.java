@@ -77,6 +77,11 @@ public class MainFragment extends BaseMainFragment {
         return view;
     }
 
+    @Override
+    protected boolean showToolbar() {
+        return false;
+    }
+
     private void initBottomBar(View view) {
         mBottomBar = (BottomBar) view.findViewById(R.id.bottomBar);
 

@@ -62,4 +62,9 @@ public class SplashFragment extends BaseMainFragment {
 
 
     }
+
+    @Override
+    protected boolean showToolbar() {
+        return false;
+    }
 }

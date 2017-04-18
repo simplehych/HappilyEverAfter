@@ -11,8 +11,4 @@
         android:icon="@mipmap/ic_launcher"
         android:title=""
         app:showAsAction="always" />
-    <item
-        android:id="@+id/next"
-        android:title="下一步"
-        app:showAsAction="always"></item>
 </menu>

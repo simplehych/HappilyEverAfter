@@ -40,4 +40,8 @@ public class MineFragment extends BaseMainFragment {
         start(LoginFragment.newInstance());
     }
 
+    @Override
+    protected boolean showToolbar() {
+        return false;
+    }
 }
