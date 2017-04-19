@@ -37,7 +37,7 @@ public abstract class BaseFragment<T extends BasePresenter, E extends BaseModel>
         FrameLayout containerBase = (FrameLayout) mRootView.findViewById(R.id.common_container_ll);
         if (getLayoutResId() != 0) {
             FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-            containerBase.addView(LayoutInflater.from(_mActivity).inflate(getLayoutResId(), null), params);
+            containerBase.addView(LayoutInflater.from(_mActivity).inflate(getLayoutResId(), containerBase, false), params);
         }
 
         unbinder = ButterKnife.bind(this, mRootView);
