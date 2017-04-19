@@ -1,1 +1,4 @@
-# 单Activity多Fragment + 路由模式 + Mvp + Rxjava
+单Activity多Fragment：Fragmentation
+路由模式：ARouter
+Mvp
+Rxjava
