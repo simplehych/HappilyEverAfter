@@ -56,4 +56,33 @@ public class TestActivity extends AppCompatActivity {
         new String();
 
     }
+
+    String[] mArray =
+    public void zero() {
+        int sum = 0;
+        for (int i = 0; i < mArray.length; ++i) {
+            sum += mArray[i].mSplat;
+        }
+    }
+
+    // 相对zero()来说，这种写法会更快些，在存在JIT的情况下速度几乎和two()速度一样快。
+    public void one() {
+        int sum = 0;
+        // 1) 通过本地化变量，减少查询，在不存在JIT的手机下，优化较明显。
+        String[] localArray = mArray;
+        // 2) 获取队列长度，减少每次遍历访问变量的长度，有效优化。
+        int len = localArray.length;
+
+        for (int i = 0; i < len; ++i) {
+            sum += localArray[i].mSplat;
+        }
+    }
+
+    // 在无JIT的设备中，是最快的遍历方式，在存在JIT的设备中，与one()差不多快。
+    public void two() {
+        int sum = 0;
+        for (String a : mArray) {
+            sum += a.mSplat;
+        }
+    }
 }
