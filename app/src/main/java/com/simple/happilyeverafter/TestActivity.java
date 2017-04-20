@@ -1,8 +1,11 @@
 package com.simple.happilyeverafter;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.simple.commonlibrary.arouter.RouterManager;
@@ -49,5 +52,8 @@ public class TestActivity extends AppCompatActivity {
                     public void onNext(Long aLong) {
                     }
                 });
+
+        new String();
+
     }
 }

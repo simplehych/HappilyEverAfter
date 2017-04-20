@@ -54,7 +54,7 @@ public abstract class BaseSecondaryFragment<T extends BasePresenter, E extends B
     @Override
     public void onSupportVisible() {
         super.onSupportVisible();
-        RxManager.post(BottomBarEvent.class.getName(), new BottomBarEvent(false));
+//        RxManager.post(BottomBarEvent.class.getName(), new BottomBarEvent(false));
     }
 
     /**

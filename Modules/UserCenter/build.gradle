@@ -49,6 +49,7 @@ android {
             }
         }
     }
+    resourcePrefix "user_" //该模块下的资源文件全部以 'user_' 为前缀
 }
 
 dependencies {

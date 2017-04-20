@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.simple.commonlibrary.arouter.RouterManager;
+import com.simple.commonlibrary.base.BaseFragment;
 import com.simple.commonlibrary.base.BaseMainFragment;
 import com.simple.commonlibrary.event.BottomBarEvent;
 import com.simple.commonlibrary.rx.RxManager;
@@ -44,7 +46,8 @@ public class MainFragment extends BaseMainFragment {
             mFragments[FIRST] = MainFragment1.newInstance();
             mFragments[SECOND] = MainFragment2.newInstance();
             mFragments[THIRD] = MainFragment3.newInstance();
-            mFragments[FOURTH] = MainFragment4.newInstance();
+//            mFragments[FOURTH] = MainFragment4.newInstance();
+            mFragments[FOURTH] = (BaseFragment)RouterManager.start(RouterManager.USER_MINE);
 
             loadMultipleRootFragment(R.id.container_main_fl, FIRST,
                     mFragments[FIRST],
@@ -57,7 +60,8 @@ public class MainFragment extends BaseMainFragment {
             mFragments[FIRST] = findFragment(MainFragment1.class);
             mFragments[SECOND] = findFragment(MainFragment2.class);
             mFragments[THIRD] = findFragment(MainFragment3.class);
-            mFragments[FOURTH] = findFragment(MainFragment4.class);
+//            mFragments[FOURTH] = findFragment(MainFragment4.class);
+            mFragments[FOURTH] = findFragment(((BaseFragment)RouterManager.start(RouterManager.USER_MINE)).getClass());
         }
 
         initBottomBar(view);

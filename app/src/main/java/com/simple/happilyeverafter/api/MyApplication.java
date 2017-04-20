@@ -18,8 +18,6 @@ public class MyApplication extends BaseApplication {
         super.onCreate();
 
         ARouter.init(this); // 尽可能早，推荐在Application中初始化
-        RouterManager.initUserProvider();
-
 
         Fragmentation.builder()
                 // 设置 栈视图 模式为 悬浮球模式   SHAKE: 摇一摇唤出   NONE：隐藏

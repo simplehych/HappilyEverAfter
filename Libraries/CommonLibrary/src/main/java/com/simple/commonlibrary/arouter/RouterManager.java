@@ -30,10 +30,15 @@ public class RouterManager {
     public static IUserProvider sIUserProvider;
 
     /**
-     * 依赖某个模块后动态的初始化接口
+     * 拦截器和服务所需要实现的接口不同，但是结构类似，都存在 init(Context context) 方法，但是两者的调用时机不同
+     * 拦截器因为其特殊性，会被任何一次路由所触发，拦截器会在ARouter初始化的时候异步初始化，如果第一次路由的时候拦截器还没有初始化结束，路由会等待，直到初始化完成。
+     * 服务没有该限制，某一服务可能在App整个生命周期中都不会用到，所以服务只有被调用的时候才会触发初始化操作
      */
-    public static void initUserProvider() {
-        sIUserProvider = (IUserProvider) ARouter.getInstance().build(USER_PROVIDER).navigation();
+    public static IUserProvider getUserProvider() {
+        if (sIUserProvider == null) {
+            sIUserProvider = (IUserProvider) ARouter.getInstance().build(USER_PROVIDER).navigation();
+        }
+        return sIUserProvider;
     }
 
     public static Object start(String path) {

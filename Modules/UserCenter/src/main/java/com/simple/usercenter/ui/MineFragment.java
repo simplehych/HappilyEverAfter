@@ -37,7 +37,7 @@ public class MineFragment extends BaseMainFragment {
 
     @OnClick(R2.id.avatar_iv)
     public void onViewClicked() {
-        start(LoginFragment.newInstance());
+        _mActivity.start(LoginFragment.newInstance());
     }
 
     @Override

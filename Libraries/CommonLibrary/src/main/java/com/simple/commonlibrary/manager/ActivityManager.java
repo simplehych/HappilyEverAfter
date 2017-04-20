@@ -86,7 +86,6 @@ public class ActivityManager {
         if (activity != null) {
             sActivityStack.remove(activity);
             activity.finish();
-            activity = null;
         }
     }
 
@@ -96,7 +95,6 @@ public class ActivityManager {
     public void removeActivity(Activity activity) {
         if (activity != null) {
             sActivityStack.remove(activity);
-            activity = null;
         }
     }
 
