@@ -54,11 +54,17 @@ http://blog.csdn.net/a153614131/article/details/53248571
 			public class Reflex extends Activity {  
 				private static String getReflex() {  
 					Log.i("TAG", "进来了反射");  
-					String reflexResult ="测试";  
+					String reflexResult ="测试";
 					return reflexResult;  
 			}  	
 
 4 映射文件
 分组管理，按需加载策略
 https://yq.aliyun.com/articles/71687?t=t1
+
+5 Charsequence,String,StringBuffer,StringBuilder
+    Charsequence,接口 表示字符串序列，有序的字符串序列集合
+    String,常量 不可变
+    StringBuffer,可变常量字符串 线程安全
+    StringBuilder,可变常量字符串 非线程安全
 		
