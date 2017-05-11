@@ -19,9 +19,11 @@ android {
     }
     buildTypes {//Library没有debug和release区分，运行之后都按Release
         debug {
+            getGeTuiApp()
             buildConfigField "String", "SERVER_URL", "\"${loadServerUrl()}\""
         }
         release {
+            getGeTuiApp()
             buildConfigField "String", "SERVER_URL", "\"${loadServerUrl()}\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -91,5 +93,37 @@ dependencies {
 
 def loadServerUrl() {
     return rootProject.ext.serverUrl
+}
+//task getGeTuiApp << 在右侧gradle里会出现getGeTuiApp的设置样式按钮，可换做方法
+task getGeTuiApp << {
+    //获取主工程下文件
+    File propFile = file(rootProject.getRootDir().getAbsolutePath() + "/getui.properties")
+    if (propFile.exists()) {
+        def Properties props = new Properties()
+        props.load(new FileInputStream(propFile))
+        props['GETUI'] = "GETUI_APP_ID"
+        propFile.setWritable(true)
+        props.store(new FileOutputStream(propFile), "")
+        println props['GETUI']
+    } else {
+        println "No File"
+    }
+}
+
+def getGeTuiApp() {
+    //获取主工程下文件
+    File propFile = file(rootProject.getRootDir().getAbsolutePath() + "/getui.properties")
+    if (propFile.exists()) {
+        def Properties props = new Properties()
+        props.load(new FileInputStream(propFile))
+        props['GETUI'] = "GETUI_APP_ID"
+        propFile.setWritable(true)
+        props.store(new FileOutputStream(propFile), "")
+        println props['GETUI']
+        return props['GETUI']
+    } else {
+        println "No File"
+        return "No File"
+    }
 }
 

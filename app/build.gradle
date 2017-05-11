@@ -19,6 +19,7 @@ android {
     }
     buildTypes {
         debug {
+            geTuiDebug()//测试
 
             buildConfigField "String", "SERVER_URL", "\"${loadServerUrl()}\""//域名
             debuggable true
@@ -39,6 +40,7 @@ android {
         }
 
         release {
+            geTuiRelease()//测试
         }
     }
 }
@@ -75,4 +77,26 @@ dependencies {
 
 def loadServerUrl() {
     return rootProject.ext.serverUrl
+}
+
+def geTuiDebug() {
+    ext.getui = new File('getui.properties')
+    getui.text = "GETUI_APP_ID=" + "${loadParams("DEBUG_GETUI_APPID")}\n" +
+            "GETUI_APP_KEY=" + "${loadParams("DEBUG_GETUI_APPKEY")}\n" +
+            "GETUI_APP_SECRET=" + "${loadParams("DEBUG_GETUI_APPSECRET")}"
+}
+
+def geTuiRelease() {
+    ext.getui = new File('getui.properties')
+    getui.text = "GETUI_APP_ID=" + "${loadParams("RELEASE_GETUI_APPID")}\n" +
+            "GETUI_APP_KEY=" + "${loadParams("RELEASE_GETUI_APPKEY")}\n" +
+            "GETUI_APP_SECRET=" + "${loadParams("RELEASE_GETUI_APPSECRET")}"
+}
+
+def buildNumberIncrease() {
+    ext._build_number_file = new File('build_number.properties')
+    println 'Old build number: ' + _build_number_file.text
+    ext.buildNumber = _build_number_file.text.toInteger() + 1
+    println 'New build number: ' + buildNumber
+    _build_number_file.text = buildNumber
 }
