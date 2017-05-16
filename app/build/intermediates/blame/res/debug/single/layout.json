@@ -60,16 +60,16 @@
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\fragment_main.xml"
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\liumoyi\\.android\\build-cache\\9166259e4f1563bf800e82a1d8543e1520c8b036\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "D:\\MyWorkspace\\HappilyEverAfter\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
         "merged": "D:\\MyWorkspace\\HappilyEverAfter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
