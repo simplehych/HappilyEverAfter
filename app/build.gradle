@@ -93,10 +93,14 @@ def geTuiRelease() {
             "GETUI_APP_SECRET=" + "${loadParams("RELEASE_GETUI_APPSECRET")}"
 }
 
-def buildNumberIncrease() {
+def buildNumberIncrease() {//example
     ext._build_number_file = new File('build_number.properties')
     println 'Old build number: ' + _build_number_file.text
     ext.buildNumber = _build_number_file.text.toInteger() + 1
     println 'New build number: ' + buildNumber
     _build_number_file.text = buildNumber
+}
+
+def loadParams(String name){
+    return hasProperty(name) ? getProperty(name) : ""
 }

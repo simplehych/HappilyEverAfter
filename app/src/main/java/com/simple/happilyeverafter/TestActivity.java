@@ -2,6 +2,7 @@ package com.simple.happilyeverafter;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.graphics.drawable.VectorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -52,5 +53,6 @@ public class TestActivity extends AppCompatActivity {
                     public void onNext(Long aLong) {
                     }
                 });
+
     }
 }

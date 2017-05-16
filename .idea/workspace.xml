@@ -26,10 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9493052-8ff8-48cc-b2e9-78bd279127bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getui.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/gradle.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" afterPath="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java" />
     </list>
     <ignored path="HappilyEverAfter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,81 +81,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FragmentHostCallback.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.2.0/support-fragment-25.2.0-sources.jar!/android/support/v4/app/FragmentHostCallback.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7852">
-              <caret line="349" column="20" selection-start-line="349" selection-start-column="20" selection-end-line="349" selection-end-column="20" />
+            <state relative-caret-position="645">
+              <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplashFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/ui/SplashFragment.java">
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="60" column="19" selection-start-line="34" selection-start-column="8" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Note.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/Note.txt">
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1534">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharSequence.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/CharSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/graphics/Path.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+            <state relative-caret-position="234">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -171,12 +131,192 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="99" column="89" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="89" />
+            <state relative-caret-position="275">
+              <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <folding>
+                <element signature="e#1035#1227#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VectorDrawable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/graphics/drawable/VectorDrawable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5486">
+              <caret line="264" column="13" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#87449#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#12051#12052#0" expanded="false" />
+                <element signature="e#12108#12109#0" expanded="false" />
+                <element signature="e#13562#13563#0" expanded="false" />
+                <element signature="e#13621#13622#0" expanded="false" />
+                <element signature="e#15828#15829#0" expanded="false" />
+                <element signature="e#15888#15889#0" expanded="false" />
+                <element signature="e#16236#16237#0" expanded="false" />
+                <element signature="e#16271#16272#0" expanded="false" />
+                <element signature="e#32162#32163#0" expanded="false" />
+                <element signature="e#32211#32212#0" expanded="false" />
+                <element signature="e#32275#32276#0" expanded="false" />
+                <element signature="e#32330#32331#0" expanded="false" />
+                <element signature="e#33894#33895#0" expanded="false" />
+                <element signature="e#33965#33966#0" expanded="false" />
+                <element signature="e#37823#37824#0" expanded="false" />
+                <element signature="e#37871#37872#0" expanded="false" />
+                <element signature="e#38223#38224#0" expanded="false" />
+                <element signature="e#38284#38285#0" expanded="false" />
+                <element signature="e#38356#38357#0" expanded="false" />
+                <element signature="e#38416#38417#0" expanded="false" />
+                <element signature="e#40403#40404#0" expanded="false" />
+                <element signature="e#40468#40469#0" expanded="false" />
+                <element signature="e#41002#41003#0" expanded="false" />
+                <element signature="e#41072#41073#0" expanded="false" />
+                <element signature="e#41143#41144#0" expanded="false" />
+                <element signature="e#41206#41207#0" expanded="false" />
+                <element signature="e#43121#43122#0" expanded="false" />
+                <element signature="e#43198#43199#0" expanded="false" />
+                <element signature="e#43605#43606#0" expanded="false" />
+                <element signature="e#43682#43683#0" expanded="false" />
+                <element signature="e#43913#43914#0" expanded="false" />
+                <element signature="e#43984#43985#0" expanded="false" />
+                <element signature="e#44069#44070#0" expanded="false" />
+                <element signature="e#44142#44143#0" expanded="false" />
+                <element signature="e#44381#44382#0" expanded="false" />
+                <element signature="e#44452#44453#0" expanded="false" />
+                <element signature="e#44537#44538#0" expanded="false" />
+                <element signature="e#44610#44611#0" expanded="false" />
+                <element signature="e#44849#44850#0" expanded="false" />
+                <element signature="e#44920#44921#0" expanded="false" />
+                <element signature="e#45005#45006#0" expanded="false" />
+                <element signature="e#45078#45079#0" expanded="false" />
+                <element signature="e#45317#45318#0" expanded="false" />
+                <element signature="e#45388#45389#0" expanded="false" />
+                <element signature="e#45473#45474#0" expanded="false" />
+                <element signature="e#45546#45547#0" expanded="false" />
+                <element signature="e#45788#45789#0" expanded="false" />
+                <element signature="e#45861#45862#0" expanded="false" />
+                <element signature="e#45946#45947#0" expanded="false" />
+                <element signature="e#46021#46022#0" expanded="false" />
+                <element signature="e#49012#49013#0" expanded="false" />
+                <element signature="e#49063#49064#0" expanded="false" />
+                <element signature="e#49381#49382#0" expanded="false" />
+                <element signature="e#49422#49423#0" expanded="false" />
+                <element signature="e#49920#49921#0" expanded="false" />
+                <element signature="e#49961#49962#0" expanded="false" />
+                <element signature="e#52832#52833#0" expanded="false" />
+                <element signature="e#52874#52875#0" expanded="false" />
+                <element signature="e#54593#54594#0" expanded="false" />
+                <element signature="e#54668#54669#0" expanded="false" />
+                <element signature="e#54936#54937#0" expanded="false" />
+                <element signature="e#55009#55010#0" expanded="false" />
+                <element signature="e#55269#55270#0" expanded="false" />
+                <element signature="e#55342#55343#0" expanded="false" />
+                <element signature="e#55602#55603#0" expanded="false" />
+                <element signature="e#55675#55676#0" expanded="false" />
+                <element signature="e#55935#55936#0" expanded="false" />
+                <element signature="e#56008#56009#0" expanded="false" />
+                <element signature="e#56272#56273#0" expanded="false" />
+                <element signature="e#56349#56350#0" expanded="false" />
+                <element signature="e#56629#56630#0" expanded="false" />
+                <element signature="e#56706#56707#0" expanded="false" />
+                <element signature="e#57628#57629#0" expanded="false" />
+                <element signature="e#57703#57704#0" expanded="false" />
+                <element signature="e#58312#58313#0" expanded="false" />
+                <element signature="e#58352#58353#0" expanded="false" />
+                <element signature="e#58521#58522#0" expanded="false" />
+                <element signature="e#58561#58562#0" expanded="false" />
+                <element signature="e#59184#59185#0" expanded="false" />
+                <element signature="e#59238#59239#0" expanded="false" />
+                <element signature="e#59432#59433#0" expanded="false" />
+                <element signature="e#59473#59474#0" expanded="false" />
+                <element signature="e#59829#59830#0" expanded="false" />
+                <element signature="e#59865#59866#0" expanded="false" />
+                <element signature="e#60036#60037#0" expanded="false" />
+                <element signature="e#60072#60073#0" expanded="false" />
+                <element signature="e#60129#60130#0" expanded="false" />
+                <element signature="e#60165#60166#0" expanded="false" />
+                <element signature="e#60214#60215#0" expanded="false" />
+                <element signature="e#60267#60268#0" expanded="false" />
+                <element signature="e#63134#63135#0" expanded="false" />
+                <element signature="e#63212#63213#0" expanded="false" />
+                <element signature="e#63634#63635#0" expanded="false" />
+                <element signature="e#63712#63713#0" expanded="false" />
+                <element signature="e#64134#64135#0" expanded="false" />
+                <element signature="e#64212#64213#0" expanded="false" />
+                <element signature="e#64627#64628#0" expanded="false" />
+                <element signature="e#64703#64704#0" expanded="false" />
+                <element signature="e#65119#65120#0" expanded="false" />
+                <element signature="e#65195#65196#0" expanded="false" />
+                <element signature="e#65624#65625#0" expanded="false" />
+                <element signature="e#65704#65705#0" expanded="false" />
+                <element signature="e#66127#66128#0" expanded="false" />
+                <element signature="e#66205#66206#0" expanded="false" />
+                <element signature="e#66637#66638#0" expanded="false" />
+                <element signature="e#66718#66719#0" expanded="false" />
+                <element signature="e#67752#67753#0" expanded="false" />
+                <element signature="e#67806#67807#0" expanded="false" />
+                <element signature="e#69899#69900#0" expanded="false" />
+                <element signature="e#69974#69975#0" expanded="false" />
+                <element signature="e#70023#70024#0" expanded="false" />
+                <element signature="e#70076#70077#0" expanded="false" />
+                <element signature="e#70132#70133#0" expanded="false" />
+                <element signature="e#70173#70174#0" expanded="false" />
+                <element signature="e#79130#79131#0" expanded="false" />
+                <element signature="e#79208#79209#0" expanded="false" />
+                <element signature="e#79511#79512#0" expanded="false" />
+                <element signature="e#79589#79590#0" expanded="false" />
+                <element signature="e#79860#79861#0" expanded="false" />
+                <element signature="e#79938#79939#0" expanded="false" />
+                <element signature="e#80205#80206#0" expanded="false" />
+                <element signature="e#80281#80282#0" expanded="false" />
+                <element signature="e#80572#80573#0" expanded="false" />
+                <element signature="e#80648#80649#0" expanded="false" />
+                <element signature="e#80913#80914#0" expanded="false" />
+                <element signature="e#80993#80994#0" expanded="false" />
+                <element signature="e#81272#81273#0" expanded="false" />
+                <element signature="e#81350#81351#0" expanded="false" />
+                <element signature="e#81624#81625#0" expanded="false" />
+                <element signature="e#81705#81706#0" expanded="false" />
+                <element signature="e#82036#82037#0" expanded="false" />
+                <element signature="e#82106#82107#0" expanded="false" />
+                <element signature="e#82152#82153#0" expanded="false" />
+                <element signature="e#82190#82191#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -6808,9 +6948,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modules/UserCenter/src/main/res/layout/user_fragment_login.xml" />
-        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/fragmentation/BaseToolbarFragment.java" />
-        <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/fragmentation/BaseSupportFragment.java" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/layout/toolbar.xml" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/drawable/common_toolbar_selector.xml" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/glide/GlideUtils.java" />
@@ -6855,10 +6992,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/api/MyApplication.java" />
         <option value="$PROJECT_DIR$/Modules/UserCenter/src/main/java/com/simple/usercenter/ui/MineFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/ui/MainFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java" />
         <option value="$PROJECT_DIR$/my/Note.txt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/gradle.properties" />
       </list>
     </option>
   </component>
@@ -6893,9 +7033,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -6924,376 +7065,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usercenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usercenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usercenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -7313,126 +7084,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -7487,62 +7138,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -7573,86 +7168,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="happilyeverafter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="happilyeverafter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HappilyEverAfter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="happilyeverafter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bottombar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7667,14 +7189,17 @@
     <property name="DEBUGGER_ID" value="Auto" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\mipmap-xhdpi" />
-      <recent name="D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\src\main\res\layout" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.simple.sharelib.test" />
       <recent name="com.simple.happilyeverafter.test.modules" />
       <recent name="com.simple.happilyeverafter.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWorkspace\HappilyEverAfter\app" />
+      <recent name="D:\MyWorkspace\HappilyEverAfter" />
+      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\menu" />
+      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\mipmap-xhdpi" />
+      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\mipmap-hdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.simple.usercenter.ui" />
@@ -7683,12 +7208,9 @@
       <recent name="com.simple.happilyeverafter.ui.mainfragment2" />
       <recent name="com.simple.commonlibrary.retrofit" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyWorkspace\HappilyEverAfter" />
-      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\menu" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\mipmap-xhdpi" />
-      <recent name="D:\MyWorkspace\HappilyEverAfter\Libraries\CommonLibrary\src\main\res\mipmap-hdpi" />
-      <recent name="D:\MyWorkspace\HappilyEverAfter\app\src\main\res\layout" />
+      <recent name="D:\MyWorkspace\HappilyEverAfter\Modules\UserCenter\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -8120,33 +7642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/menu/common_toolbar_menu_next.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/res/menu/common_toolbar_menu_action.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/EntryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/src/main/java/com/simple/commonlibrary/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -8172,27 +7667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -8230,7 +7704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8238,7 +7711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
@@ -8379,19 +7851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/content/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38402">
           <caret line="1550" column="25" selection-start-line="1550" selection-start-column="25" selection-end-line="1550" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8399,7 +7862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4810">
           <caret line="242" column="15" selection-start-line="242" selection-start-column="15" selection-end-line="242" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8407,7 +7869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7852">
           <caret line="349" column="20" selection-start-line="349" selection-start-column="20" selection-end-line="349" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8415,7 +7876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
           <caret line="60" column="19" selection-start-line="34" selection-start-column="8" selection-end-line="60" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8430,7 +7890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1534">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8438,7 +7897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8446,7 +7904,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#0#7972#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4494#4495#0" expanded="false" />
+            <element signature="e#4547#4548#0" expanded="false" />
+            <element signature="e#7068#7069#0" expanded="false" />
+            <element signature="e#7121#7122#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -8460,16 +7925,225 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/graphics/Path.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="3666">
           <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32647#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1400#1401#0" expanded="false" />
+            <element signature="e#4611#4612#0" expanded="false" />
+            <element signature="e#4652#4653#0" expanded="false" />
+            <element signature="e#5977#5978#0" expanded="false" />
+            <element signature="e#6028#6029#0" expanded="false" />
+            <element signature="e#6783#6784#0" expanded="false" />
+            <element signature="e#6821#6822#0" expanded="false" />
+            <element signature="e#7303#7304#0" expanded="false" />
+            <element signature="e#7373#7374#0" expanded="false" />
+            <element signature="e#7561#7562#0" expanded="false" />
+            <element signature="e#7622#7623#0" expanded="false" />
+            <element signature="e#8402#8403#0" expanded="false" />
+            <element signature="e#8452#8453#0" expanded="false" />
+            <element signature="e#8893#8894#0" expanded="false" />
+            <element signature="e#8948#8949#0" expanded="false" />
+            <element signature="e#9759#9760#0" expanded="false" />
+            <element signature="e#9819#9820#0" expanded="false" />
+            <element signature="e#10077#10078#0" expanded="false" />
+            <element signature="e#10125#10126#0" expanded="false" />
+            <element signature="e#10669#10670#0" expanded="false" />
+            <element signature="e#10720#10721#0" expanded="false" />
+            <element signature="e#17957#17958#0" expanded="false" />
+            <element signature="e#17995#17996#0" expanded="false" />
+            <element signature="e#27634#27635#0" expanded="false" />
+            <element signature="e#27668#27669#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+        <state relative-caret-position="312">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/graphics/drawable/VectorDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5486">
+          <caret line="264" column="13" selection-start-line="264" selection-start-column="13" selection-end-line="264" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#87449#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#12051#12052#0" expanded="false" />
+            <element signature="e#12108#12109#0" expanded="false" />
+            <element signature="e#13562#13563#0" expanded="false" />
+            <element signature="e#13621#13622#0" expanded="false" />
+            <element signature="e#15828#15829#0" expanded="false" />
+            <element signature="e#15888#15889#0" expanded="false" />
+            <element signature="e#16236#16237#0" expanded="false" />
+            <element signature="e#16271#16272#0" expanded="false" />
+            <element signature="e#32162#32163#0" expanded="false" />
+            <element signature="e#32211#32212#0" expanded="false" />
+            <element signature="e#32275#32276#0" expanded="false" />
+            <element signature="e#32330#32331#0" expanded="false" />
+            <element signature="e#33894#33895#0" expanded="false" />
+            <element signature="e#33965#33966#0" expanded="false" />
+            <element signature="e#37823#37824#0" expanded="false" />
+            <element signature="e#37871#37872#0" expanded="false" />
+            <element signature="e#38223#38224#0" expanded="false" />
+            <element signature="e#38284#38285#0" expanded="false" />
+            <element signature="e#38356#38357#0" expanded="false" />
+            <element signature="e#38416#38417#0" expanded="false" />
+            <element signature="e#40403#40404#0" expanded="false" />
+            <element signature="e#40468#40469#0" expanded="false" />
+            <element signature="e#41002#41003#0" expanded="false" />
+            <element signature="e#41072#41073#0" expanded="false" />
+            <element signature="e#41143#41144#0" expanded="false" />
+            <element signature="e#41206#41207#0" expanded="false" />
+            <element signature="e#43121#43122#0" expanded="false" />
+            <element signature="e#43198#43199#0" expanded="false" />
+            <element signature="e#43605#43606#0" expanded="false" />
+            <element signature="e#43682#43683#0" expanded="false" />
+            <element signature="e#43913#43914#0" expanded="false" />
+            <element signature="e#43984#43985#0" expanded="false" />
+            <element signature="e#44069#44070#0" expanded="false" />
+            <element signature="e#44142#44143#0" expanded="false" />
+            <element signature="e#44381#44382#0" expanded="false" />
+            <element signature="e#44452#44453#0" expanded="false" />
+            <element signature="e#44537#44538#0" expanded="false" />
+            <element signature="e#44610#44611#0" expanded="false" />
+            <element signature="e#44849#44850#0" expanded="false" />
+            <element signature="e#44920#44921#0" expanded="false" />
+            <element signature="e#45005#45006#0" expanded="false" />
+            <element signature="e#45078#45079#0" expanded="false" />
+            <element signature="e#45317#45318#0" expanded="false" />
+            <element signature="e#45388#45389#0" expanded="false" />
+            <element signature="e#45473#45474#0" expanded="false" />
+            <element signature="e#45546#45547#0" expanded="false" />
+            <element signature="e#45788#45789#0" expanded="false" />
+            <element signature="e#45861#45862#0" expanded="false" />
+            <element signature="e#45946#45947#0" expanded="false" />
+            <element signature="e#46021#46022#0" expanded="false" />
+            <element signature="e#49012#49013#0" expanded="false" />
+            <element signature="e#49063#49064#0" expanded="false" />
+            <element signature="e#49381#49382#0" expanded="false" />
+            <element signature="e#49422#49423#0" expanded="false" />
+            <element signature="e#49920#49921#0" expanded="false" />
+            <element signature="e#49961#49962#0" expanded="false" />
+            <element signature="e#52832#52833#0" expanded="false" />
+            <element signature="e#52874#52875#0" expanded="false" />
+            <element signature="e#54593#54594#0" expanded="false" />
+            <element signature="e#54668#54669#0" expanded="false" />
+            <element signature="e#54936#54937#0" expanded="false" />
+            <element signature="e#55009#55010#0" expanded="false" />
+            <element signature="e#55269#55270#0" expanded="false" />
+            <element signature="e#55342#55343#0" expanded="false" />
+            <element signature="e#55602#55603#0" expanded="false" />
+            <element signature="e#55675#55676#0" expanded="false" />
+            <element signature="e#55935#55936#0" expanded="false" />
+            <element signature="e#56008#56009#0" expanded="false" />
+            <element signature="e#56272#56273#0" expanded="false" />
+            <element signature="e#56349#56350#0" expanded="false" />
+            <element signature="e#56629#56630#0" expanded="false" />
+            <element signature="e#56706#56707#0" expanded="false" />
+            <element signature="e#57628#57629#0" expanded="false" />
+            <element signature="e#57703#57704#0" expanded="false" />
+            <element signature="e#58312#58313#0" expanded="false" />
+            <element signature="e#58352#58353#0" expanded="false" />
+            <element signature="e#58521#58522#0" expanded="false" />
+            <element signature="e#58561#58562#0" expanded="false" />
+            <element signature="e#59184#59185#0" expanded="false" />
+            <element signature="e#59238#59239#0" expanded="false" />
+            <element signature="e#59432#59433#0" expanded="false" />
+            <element signature="e#59473#59474#0" expanded="false" />
+            <element signature="e#59829#59830#0" expanded="false" />
+            <element signature="e#59865#59866#0" expanded="false" />
+            <element signature="e#60036#60037#0" expanded="false" />
+            <element signature="e#60072#60073#0" expanded="false" />
+            <element signature="e#60129#60130#0" expanded="false" />
+            <element signature="e#60165#60166#0" expanded="false" />
+            <element signature="e#60214#60215#0" expanded="false" />
+            <element signature="e#60267#60268#0" expanded="false" />
+            <element signature="e#63134#63135#0" expanded="false" />
+            <element signature="e#63212#63213#0" expanded="false" />
+            <element signature="e#63634#63635#0" expanded="false" />
+            <element signature="e#63712#63713#0" expanded="false" />
+            <element signature="e#64134#64135#0" expanded="false" />
+            <element signature="e#64212#64213#0" expanded="false" />
+            <element signature="e#64627#64628#0" expanded="false" />
+            <element signature="e#64703#64704#0" expanded="false" />
+            <element signature="e#65119#65120#0" expanded="false" />
+            <element signature="e#65195#65196#0" expanded="false" />
+            <element signature="e#65624#65625#0" expanded="false" />
+            <element signature="e#65704#65705#0" expanded="false" />
+            <element signature="e#66127#66128#0" expanded="false" />
+            <element signature="e#66205#66206#0" expanded="false" />
+            <element signature="e#66637#66638#0" expanded="false" />
+            <element signature="e#66718#66719#0" expanded="false" />
+            <element signature="e#67752#67753#0" expanded="false" />
+            <element signature="e#67806#67807#0" expanded="false" />
+            <element signature="e#69899#69900#0" expanded="false" />
+            <element signature="e#69974#69975#0" expanded="false" />
+            <element signature="e#70023#70024#0" expanded="false" />
+            <element signature="e#70076#70077#0" expanded="false" />
+            <element signature="e#70132#70133#0" expanded="false" />
+            <element signature="e#70173#70174#0" expanded="false" />
+            <element signature="e#79130#79131#0" expanded="false" />
+            <element signature="e#79208#79209#0" expanded="false" />
+            <element signature="e#79511#79512#0" expanded="false" />
+            <element signature="e#79589#79590#0" expanded="false" />
+            <element signature="e#79860#79861#0" expanded="false" />
+            <element signature="e#79938#79939#0" expanded="false" />
+            <element signature="e#80205#80206#0" expanded="false" />
+            <element signature="e#80281#80282#0" expanded="false" />
+            <element signature="e#80572#80573#0" expanded="false" />
+            <element signature="e#80648#80649#0" expanded="false" />
+            <element signature="e#80913#80914#0" expanded="false" />
+            <element signature="e#80993#80994#0" expanded="false" />
+            <element signature="e#81272#81273#0" expanded="false" />
+            <element signature="e#81350#81351#0" expanded="false" />
+            <element signature="e#81624#81625#0" expanded="false" />
+            <element signature="e#81705#81706#0" expanded="false" />
+            <element signature="e#82036#82037#0" expanded="false" />
+            <element signature="e#82106#82107#0" expanded="false" />
+            <element signature="e#82152#82153#0" expanded="false" />
+            <element signature="e#82190#82191#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simple/happilyeverafter/TestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="e#1035#1227#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -8482,10 +8156,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Libraries/CommonLibrary/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="99" column="89" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="89" />
+        <state relative-caret-position="645">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
