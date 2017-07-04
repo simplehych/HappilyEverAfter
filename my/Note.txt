@@ -75,3 +75,5 @@ https://yq.aliyun.com/articles/71687?t=t1
 		vg1.addView(v);
 		vg2.addView(v);
 	以上错误，提示已经有父控件
+	
+7 HorizontalScrollView包含LinearLayout设置权重失效
