@@ -68,3 +68,10 @@ https://yq.aliyun.com/articles/71687?t=t1
     StringBuffer,可变常量字符串 线程安全
     StringBuilder,可变常量字符串 非线程安全
 		
+6 一个子view只能有一个父view，不能被同时添加到俩个父view中
+	eg：View v = new View();
+		ViewGroup vg1 = new ViewGroup();
+		ViewGroup vg1 = new ViewGroup();
+		vg1.addView(v);
+		vg2.addView(v);
+	以上错误，提示已经有父控件
